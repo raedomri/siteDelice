@@ -1,0 +1,383 @@
+/*start main rules*/
+.main-title{
+    margin: 100px auto;
+    border: 2px solid black;
+    padding: 20px 20px;
+    font-size: 30px;
+    width: fit-content;
+    position: relative;
+    z-index: 1;
+    transition: 0.3s;
+
+}
+.main-title::before{
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: var(--main-color);
+    position: absolute;
+    border-radius: 50%;
+    left: -30px;
+    top: 40%;
+    transform: translateY(-40%);
+    
+}
+.main-title::after{
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: var(--main-color);
+    position: absolute;
+    border-radius: 50%;
+    right: -30px;
+    top: 40%;
+    transform: translateY(-40%);
+}
+.main-title:hover::before{
+    z-index: -1;
+    animation: left-move 0.5s linear forwards;
+}
+.main-title:hover::after{
+    z-index: -1;
+    animation: right-move 0.5s linear forwards;
+}
+:root{
+    --main-color: #191970;
+    --main-color-alt:#fff;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    
+font-family: 'Roboto Slab', serif;
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+@media  (min-width: 768){
+    .container{
+        width: 750px;
+    }
+}
+    
+@media (min-width: 992px)
+{
+    .container{
+        width: 970px;
+    }
+}
+@media (min-width: 1200px)
+{
+    .container{
+        width: 1170px;
+    }
+}
+/*end main rules*/
+.header{
+    background-color: #191970;
+    box-shadow: 0 0 10px #ddd;
+    position: relative;
+}
+.header .container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+font-family: 'Roboto Slab', serif;
+    
+}
+.header .logo img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
+.header .nav{
+    display: flex;
+   
+    
+    
+    padding: 0 20px ;
+    min-height: 48px;
+   
+
+ 
+}
+.nav > li{
+    
+    padding: 40px 40px;
+   
+
+}
+.nav > li a {
+   color: #fff;
+    text-decoration: none;
+
+}
+.nav > li li a {
+    color: #fff;
+     text-decoration: none;
+ 
+ }
+.nav .menu {
+    position: relative;
+    
+}
+.nav .menu .submenu {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 220px;
+    background-color: #191970;
+    padding: 10px;
+    box-shadow: 0 1px 1px rgb(0, 0, 0, .5);
+    display: none;
+    z-index: 1;
+
+}
+.nav .menu .submenu li i{
+    left: 200px;
+
+}
+.nav .menu .submenu .subsubmenu{
+    position: absolute;
+    top: 65px;
+    left: 235px;
+    width: 150px;
+    background-color: #191970;
+    padding: 10px;
+    box-shadow: 0 1px 1px rgb(0, 0, 0, .5);
+    display: none;
+    z-index: 1;
+
+}
+
+.nav .menu .submenu li {
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+}
+.nav  .submenu li a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+    
+
+
+.nav .menu .submenu li a:hover{
+    color: #c0001a;
+}
+.nav .menu .submenu .subsubmenu li :hover{
+    color: #c0001a;
+   
+}
+
+.nav   li :hover{
+    color: #c0001a;
+}
+.nav  .submenu:before{
+    content: "";
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #c0001a ;
+    height: 0;
+    width: 0;
+    position: absolute;
+    left: 40px;
+    top: -6px;
+    z-index:auto;
+    
+
+}
+.subsubmenu{
+    transform: translateX(5px);
+    position: absolute;
+}
+.nav .menu .submenu li:nth-child(2):hover  .subsubmenu {
+    display: block;
+}
+
+.nav   li :hover{
+    color: #c0001a;
+}
+.nav  .submenu .subsubmenu:before{
+    content: "";
+    border-left: 6px solid transparent;
+    border-right: 6px solid #c0001a;
+    border-bottom: 6px solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    left: 40px;
+    top: -1px;
+    z-index:auto;
+    
+}
+
+.nav .menu:hover .submenu{
+    display: block;
+}
+/*.nav .menu .submenu:hover  .subsubmenu{
+    display: block;
+}*/
+/*contact*/
+.contact{
+    position: relative;
+
+}
+.contact::before{
+    content:"";
+    position: absolute;
+    left: 0;
+    top:-40px;
+    height: 100%;
+    width: 100%;
+    background-color: #ececec;
+    z-index: -1;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+}
+.contact .container{
+    min-height: calc(100vh - 120px);
+    display: flex;
+    align-items: center;
+   padding-bottom: 120px;
+
+}
+.contact img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    animation: up-and-down 5s linear infinite;
+    left:650px;
+    top:0;
+    
+
+}
+@media (max-width: 991px){
+    .contact img{
+        display: none;
+    }
+}
+
+  
+.contact .text{
+    flex:1;
+}
+@media (max-width : 991px){
+    .contact .text{
+         text-align: center;
+    }
+}
+
+.contact .text span
+{
+    font-size: 20px;
+    margin-left: 0px;
+    letter-spacing: -2px;
+}
+@media (max-width : 767px){
+    .contact .text h2{
+         font-size: 28px;
+    }
+}
+.contact .box{
+    background-color: #00dafa;
+    height: 200px;
+    
+}.contact .box{
+display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 40px;}
+.contact .text p{
+    font-size: 12px;
+    line-height: 1.7;
+    margin: 5px 0 0;
+    color: black;
+    max-width: 500px;
+    margin-left: 50px;
+}
+@media (max-width : 991px){
+    .contact .text p{
+         margin: 10px auto;
+    }
+}
+
+.accueill{
+    background-image: url("./image/accueill/acueill.PNG");
+    background-size: cover;
+    height: 430px;
+    
+    
+}
+/*contact*/
+
+.nav .menu .submenu:hover  .subsubmenu li{
+    border-bottom: 1px solid #fff;
+}
+
+.footer {
+    background-color: #191970;
+    box-shadow: 0 0 10px #ddd;
+    position: relative;
+    height: 100px;
+}
+.social-icons{
+    width: 25px;
+    height: 25px;
+    background-color: cornsilk;
+}
+
+
+.footer .container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+} 
+.footer img{
+    width: 100px;
+    height: 95px;
+  padding: 2px;
+}
+
+.copyright{
+    color: #fff;
+}
+.font{
+    color: #fff;
+}
+.marque .titre{
+    font-size: 30px;
+    color: var(--main-color);
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    display: block;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+.marque img {
+    margin-top: 10px;
+    margin-top: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+
+
+/*end footer*/

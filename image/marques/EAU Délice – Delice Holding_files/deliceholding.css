@@ -1,0 +1,4953 @@
+@font-face {
+    font-family: "Dosis Bold";
+    src: url('../../fonts/Dosis-Bold.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: "Dosis SemiBold";
+    src: url('../../fonts/Dosis-SemiBold.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: "Dosis ExtraBold";
+    src: url('../../fonts/Dosis-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Dosis Medium";
+    src: url('../../fonts/Dosis-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Dosis Regular";
+    src: url('../../fonts/Dosis-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto LightItalic";
+    src: url('../../fonts/Roboto-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto Light";
+    src: url('../../fonts/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto Thin";
+    src: url('../../fonts/Roboto-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto Medium";
+    src: url('../../fonts/Roboto-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url('../../fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Aller Bold";
+    src: url('../../fonts/Aller_Bd.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Aller Regular";
+    src: url('../../fonts/Aller_Rg.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "AveFedanPERSONALUSE";
+    src: url('../../fonts/AveFedan_PERSONAL_USE.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.items-prlx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+html, body {
+    font-size: 16px;
+    overflow-x: hidden;
+    padding: 0 !important;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto !important;
+}
+
+p {
+    text-align: justify;
+}
+
+/****************** header *********************/
+header {
+    position: relative;
+    width: 100%;
+}
+
+header .container {
+    position: relative;
+}
+
+.deliceholding-header {
+    background: #006ec8;
+    padding: 5px 0 30px 0;
+}
+
+.deliceholding-header .main-menu .main-menu-more-toggle,
+.deliceholding-header .main-menu .menu-item-link-return,
+.deliceholding-header .main-menu-more,
+.deliceholding-header .submenu-expand {
+    display: none;
+}
+
+.deliceholding-header .delice-holding-main-menu .main-menu-more-toggle,
+.deliceholding-header .delice-holding-main-menu .menu-item-link-return,
+.deliceholding-header .delice-holding-main-menu .mobile-parent-nav-menu-item {
+    display: none;
+}
+
+.deliceholding-header .delice-holding-main-menu {
+    margin-top: 30px;
+}
+
+/********************** top menu ****************************/
+.deliceholding-header .delice-holding-main-menu ul#menu-top-menu, .deliceholding-header .delice-holding-main-menu ul#menu-top-menu-en {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: .5rem 0 1.2rem 0;
+    padding: 0;
+}
+
+.deliceholding-header .delice-holding-main-menu ul#menu-top-menu li, .deliceholding-header .delice-holding-main-menu ul#menu-top-menu-en li  {
+    position: relative;
+    margin-right: .8rem;
+    list-style-type: none;
+}
+.deliceholding-header .delice-holding-main-menu ul#menu-top-menu li a, .deliceholding-header .delice-holding-main-menu ul#menu-top-menu-en li a {
+    font-family: "Dosis Bold";
+    font-size: .93rem;
+    color: #60bded;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.deliceholding-header .delice-holding-main-menu ul#menu-top-menu li a:hover,.deliceholding-header .delice-holding-main-menu ul#menu-top-menu-en li a:hover  {
+    color: #ffffff;
+}
+
+.deliceholding-header .delice-holding-main-menu ul#menu-top-menu li.active a,.deliceholding-header .delice-holding-main-menu ul#menu-top-menu-en li.active a  {
+    color: #9fc730;
+}
+
+.deliceholding-header .delice-holding-main-menu ul#menu-top-menu ul.sub-menu,.deliceholding-header .delice-holding-main-menu ul#menu-top-menu-en ul.sub-menu  {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    width: 210px;
+    box-sizing: border-box;
+    top: 152%;
+    background: #42a1e6;
+    padding: 1rem 0;
+}
+
+.deliceholding-header .delice-holding-main-menu ul#menu-top-menu li ul.sub-menu::before,.deliceholding-header .delice-holding-main-menu ul#menu-top-menu-en li ul.sub-menu::before  {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: -19px;
+    z-index: -1;
+}
+
+.deliceholding-header .delice-holding-main-menu ul#menu-top-menu li ul.sub-menu li {
+    position: relative;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    line-height: 1rem;
+}
+
+.deliceholding-header .delice-holding-main-menu ul#menu-top-menu li ul.sub-menu li::before {
+    content: "";
+    width: 30px;
+    height: 1px;
+    position: absolute;
+    top: 98%;
+    left: 15px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: #6cc8f8;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.deliceholding-header .delice-holding-main-menu ul#menu-top-menu li ul.sub-menu li a,
+.deliceholding-header .delice-holding-main-menu ul#menu-top-menu li ul.sub-menu li:last-child a {
+    background: transparent;
+    font-family: "Dosis SemiBold";
+    font-size: 0.874rem;
+    line-height: 1.5em;
+    display: block;
+    padding: 10px 25px;
+    border-bottom: 1px solid #42a1e6;
+    transition: 0.1s all ease-in-out;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border-radius: 0;
+}
+
+.deliceholding-header .delice-holding-main-menu ul#menu-top-menu li ul.sub-menu li:hover::before {
+    width: 84%;
+}
+
+.deliceholding-header .delice-holding-main-menu ul#menu-top-menu li ul.sub-menu li:hover a {
+    color: #bddffb
+}
+
+.deliceholding-header .delice-holding-main-menu ul#menu-top-menu li:hover ul.sub-menu {
+    display: block;
+}
+
+/******************* bottom menu *************************/
+.deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu li,.deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu-en li  {
+	display: inline-block;
+    position: relative;
+    padding-right: 1.85rem;
+    list-style-type: none;
+    padding-top: .3rem;
+}
+
+.deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu li a, .deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu-en li a {
+    font-family: "Dosis SemiBold";
+    font-size: 1.12rem;
+    color: #ffffff;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu li a:hover, .deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu-en li a:hover {
+    color: #9fc730;
+}
+
+.deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu li.active a,.deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu-en li.active a  {
+    color: #9fc730;
+}
+
+.deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu li:before,.deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu-en li:before  {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 9px;
+    background: #42a1e6;
+    right: 14px;
+    top: 58%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu li:last-child:before, .deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu-en li:last-child:before {
+    content: "";
+    display: none;
+}
+
+.deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu ul.sub-menu, .deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu-en ul.sub-menu {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    width: 210px;
+    box-sizing: border-box;
+    top: 152%;
+    background: #42a1e6;
+    padding: 1rem 0;
+}
+
+.deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu li ul.sub-menu::before, .deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu-en li ul.sub-menu::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: -19px;
+    z-index: -1;
+}
+
+.deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu li ul.sub-menu li,.deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu-en li ul.sub-menu li  {
+    position: relative;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    line-height: 1rem;
+}
+
+.deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu li ul.sub-menu li::before, .deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu-en li ul.sub-menu li::before {
+    content: "";
+    width: 30px;
+    height: 1px;
+    position: absolute;
+    top: 98%;
+    left: 15px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: #6cc8f8;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu li ul.sub-menu li a,
+.deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu li ul.sub-menu li:last-child a,.deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu-en li ul.sub-menu li a,.deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu-en li ul.sub-menu li:last-child a  {
+    background: transparent;
+    font-family: "Dosis SemiBold";
+    font-size: 0.874rem;
+    line-height: 1.5em;
+    display: block;
+    padding: 10px 25px;
+    border-bottom: 1px solid #42a1e6;
+    transition: 0.1s all ease-in-out;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border-radius: 0;
+}
+
+.deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu li ul.sub-menu li:hover::before,.deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu-en li ul.sub-menu li:hover::before  {
+    width: 84%;
+}
+
+.deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu li ul.sub-menu li:hover a, .deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu-en li ul.sub-menu li:hover a {
+    color: #bddffb
+}
+
+.deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu li:hover ul.sub-menu,.deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu-en li:hover ul.sub-menu  {
+    display: block;
+}
+
+/****************** right menu **********************/
+.deliceholding-header #investisseurs {
+    cursor: pointer;
+}
+
+.deliceholding-header .search-deliceholding {
+    text-align: right;
+    cursor: pointer;
+}
+
+/****************** home slider *********************/
+#home_slider {
+    position: relative;
+}
+
+#home_slider .first_text_first_slide {
+    font-family: "Dosis ExtraBold" !important;
+    color: #ffffff !important;
+    font-size: 3rem !important;
+    text-transform: uppercase;
+    position: relative;
+}
+
+#home_slider .gray_first_text_first_slide {
+    font-family: "Dosis ExtraBold" !important;
+    color: #478ba0 !important;
+    font-size: 3rem !important;
+    text-transform: uppercase;
+    position: relative;
+    line-height: 4rem !important;
+}
+
+#home_slider .first_text_first_slide::after {
+    content: "";
+    position: absolute;
+    left: 108%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: url('../images/page-header-shape.png') top left no-repeat;
+    width: 20px;
+    height: 14px;
+}
+
+#home_slider .gray_first_text_first_slide::after {
+    content: "";
+    position: absolute;
+    left: 108%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: url('../images/page-header-shape.png') top left no-repeat;
+    width: 20px;
+    height: 14px;
+}
+
+
+#home_slider .second_btn_second_slide {
+    font-family: "Dosis Bold" !important;
+    background-color: #ee4225 !important;
+    color: #ffffff !important;
+    font-size: 0.9rem !important;
+    text-transform: uppercase;
+}
+
+#home_slider .first_btn_second_slide {
+    font-family: "Dosis Bold" !important;
+    background-color: #fb8516 !important;
+    color: #ffffff !important;
+    font-size: 0.9rem !important;
+    text-transform: uppercase;
+}
+
+#home_slider .first_btn_third_slide {
+    font-family: "Dosis Bold" !important;
+    background-color: #808e02 !important;
+    color: #ffffff !important;
+    font-size: 0.9rem !important;
+    text-transform: uppercase;
+}
+
+#home_slider .title_first-slide {
+    line-height: 2rem !important
+}
+
+#home_slider .title_first-slide div {
+    font-family: "Dosis Regular" !important;
+    color: #ffffff !important;
+    text-transform: uppercase;
+    font-size: 1.5rem !important;
+    line-height: inherit !important
+}
+
+#home_slider .title_first-slide span {
+    font-family: "Dosis Bold" !important;
+}
+
+#home_slider .description_first_slide {
+    font-family: "Roboto LightItalic" !important;
+    color: #ffffff !important;
+}
+
+#home_slider .description_first_slide div {
+    font-size: 0.8rem !important;
+    line-height: 1.3rem;
+}
+
+#home_slider .second_btn_first_slide,
+#home_slider .first_btn_first_slide {
+    font-family: "Dosis SemiBold" !important;
+    color: #ffffff !important;
+    background-color: transparent !important;
+    border: 1px solid #ffffff !important;
+    height: auto !important;
+    font-size: 0.87rem !important;
+    text-transform: uppercase;
+    padding: 15px 30px 17px 30px !important;
+}
+
+#home_slider .gray_first_btn_first_slide {
+    font-family: "Dosis SemiBold" !important;
+    color: #478ba0 !important;
+    background-color: transparent !important;
+    border: 1px solid #478ba0 !important;
+    height: auto !important;
+    font-size: 0.87rem !important;
+    text-transform: uppercase;
+    padding: 15px 30px 17px 30px !important;
+}
+
+#home_slider .item_img_first_slide img {
+    height: auto !important;
+}
+
+#home_slider .title_second-slide {
+    line-height: 2rem !important;
+    font-family: "Dosis Medium" !important;
+    font-size: 1.43rem !important;
+    color: #006ec8 !important;
+    text-transform: uppercase;
+}
+
+#home_slider .title_second-slide .bold-text {
+    font-family: "Dosis ExtraBold";
+    color: #006ec8;
+    font-size: 2.18rem;
+    text-transform: uppercase;
+}
+
+#home_slider .title_second-slide .red-text {
+    font-family: "Dosis Bold";
+    font-size: 2.6rem;
+    color: #fb3a44;
+    margin-left: .3rem;
+}
+
+#home_slider .description_second_slide {
+    font-family: "Roboto LightItalic" !important;
+    color: #006ec8 !important;
+}
+
+#home_slider .description_second_slide div {
+    font-size: 0.8rem !important;
+    line-height: 1.3rem;
+}
+
+#home_slider .btn_second_slide {
+    font-family: "Dosis SemiBold" !important;
+    color: #0a83c1 !important;
+    background-color: transparent !important;
+    border: 1px solid #0a83c1 !important;
+    height: auto !important;
+    font-size: 0.87rem !important;
+    text-transform: uppercase;
+    padding: 15px 30px 17px 30px !important;
+}
+
+#home_slider .sub_title_first-slide {
+    font-family: "Dosis Bold" !important;
+    color: #478ba0 !important;
+    text-transform: uppercase;
+    font-size: 1.8rem !important;
+    line-height: inherit !important;
+}
+
+#home_slider .gray_title_first-slide {
+    line-height: 2rem !important
+}
+
+#home_slider .gray_title_first-slide div {
+    font-family: "Dosis Medium" !important;
+    color: #478ba0 !important;
+    text-transform: uppercase;
+    font-size: 1.2rem !important;
+    line-height: inherit !important;
+}
+
+#home_slider .content_title_first-slide {
+    line-height: 1.2rem !important
+}
+
+#home_slider .content_title_first-slide div {
+    font-family: "Dosis Regular" !important;
+    color: #478ba0 !important;
+    text-transform: uppercase;
+    font-size: 0.75rem !important;
+    line-height: inherit !important;
+}
+
+/********************** delice numbers *********************/
+#delice_numbers {
+    padding: 13vh 0 10vh 0;
+    background-repeat: no-repeat !important;
+    background-position: left center !important;
+    background-size: cover !important;
+}
+
+#delice_numbers #chartes .charte_description {
+    font-family: "Roboto Light";
+    color: #979896;
+    font-size: 0.68rem;
+    text-align: center;
+    max-width: 272px;
+    margin: 0 auto;
+}
+
+#delice_numbers #numbers {
+    padding-top: 20px;
+}
+
+#delice_numbers #numbers .title {
+    font-family: "Dosis Medium";
+    font-size: 1.25rem;
+}
+
+#delice_numbers #numbers #dernier {
+    color: #1b7dd0;
+}
+
+#delice_numbers #numbers #dernier.top {
+    color: #92af0e;
+}
+
+#delice_numbers #numbers #dernier.bottom {
+    color: #ee4225;
+}
+
+#delice_numbers #numbers #var {
+    color: #1b7dd0;
+}
+
+#delice_numbers #numbers #quantite {
+    color: #1b7dd0;
+}
+
+#delice_numbers #numbers .value {
+    font-family: "Roboto Thin";
+    font-size: 3.36rem;
+    position: relative;
+}
+
+#delice_numbers #numbers #dernier.top .value::after {
+    content: "";
+    width: 49px;
+    height: 38px;
+    position: absolute;
+    top: 45%;
+    left: -60px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: url('../images/value_top.png') top left no-repeat;
+    background-size: contain;
+}
+
+#delice_numbers #numbers #dernier.bottom .value::after {
+    content: "";
+    width: 49px;
+    height: 38px;
+    position: absolute;
+    top: 45%;
+    left: -60px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: url('../images/value_bottom.png') top left no-repeat;
+    background-size: contain;
+}
+
+/********************** home products *********************/
+#home_products {
+
+}
+
+#home_products .vc_column-inner {
+    padding-top: 0 !important;
+}
+
+#home_products .product_laitier_btn {
+    font-family: "Dosis Bold" !important;
+    color: #0a83c1 !important;
+    background-color: transparent !important;
+    border: 1px solid #0a83c1 !important;
+    height: auto !important;
+    font-size: 0.875rem !important;
+    text-transform: uppercase;
+    padding: 15px 30px 17px 30px !important;
+}
+
+#home_products .fromage_latier {
+    font-family: "Dosis Bold" !important;
+    color: #0a83c1 !important;
+    background-color: transparent !important;
+    border: 1px solid #0a83c1 !important;
+    height: auto !important;
+    font-size: 0.875rem !important;
+    text-transform: uppercase;
+    padding: 15px 50px 17px 50px !important;
+}
+
+#home_products .jus_btn {
+    font-family: "Dosis Bold" !important;
+    color: #0a83c1 !important;
+    background-color: transparent !important;
+    border: 1px solid #0a83c1 !important;
+    height: auto !important;
+    font-size: 0.875rem !important;
+    text-transform: uppercase;
+    padding: 15px 30px 17px 30px !important;
+}
+
+#home_products .product_laitier_btn.active,
+#home_products .fromage_latier.active,
+#home_products .jus_btn.active {
+    color: #ffffff !important;
+    background-color: #0a83c1 !important;
+    border: 1px solid #0a83c1 !important;
+}
+
+#home_products .product_laitier_btn:hover,
+#home_products .fromage_latier:hover,
+#home_products .jus_btn:hover {
+    color: #ffffff !important;
+    background-color: #0a83c1 !important;
+    border: 1px solid #0a83c1 !important;
+}
+
+#home_products #description_produit_jus .medium-text {
+    font-family: "Dosis SemiBold" !important;
+    color: #5c7b08 !important;
+    font-size: 1.4rem !important;
+    text-transform: uppercase;
+    line-height: 2rem !important;
+}
+
+#home_products #description_produit_jus .percent {
+    font-family: "Roboto Medium" !important;
+    color: #fe9814 !important;
+    font-size: 1.68rem !important;
+}
+
+#home_products #description_produit_jus .bold-text {
+    font-family: "Dosis SemiBold" !important;
+    color: #5c7b08 !important;
+    font-size: 1.62rem !important;
+    text-transform: uppercase;
+}
+
+#home_products #description_produit_fromage .medium-text {
+    font-family: "Dosis SemiBold" !important;
+    color: #ffffff !important;
+    font-size: 1.3rem !important;
+    text-transform: uppercase;
+    line-height: 2rem !important;
+}
+
+#home_products #description_produit_fromage .bold-text {
+    font-family: "Dosis SemiBold" !important;
+    color: #ffffff !important;
+    font-size: 1.68rem !important;
+    text-transform: uppercase;
+}
+
+#home_products #description_produit_lait .medium-text {
+    font-family: "Dosis SemiBold" !important;
+    color: #0a83c1 !important;
+    font-size: 1.3rem !important;
+    text-transform: uppercase;
+    line-height: 2rem !important;
+}
+
+#home_products #description_produit_lait .bold-text {
+    font-family: "Dosis SemiBold" !important;
+    color: #0a83c1 !important;
+    font-size: 1.68rem !important;
+    text-transform: uppercase;
+}
+
+#home_products #description_produit_lait .extra-text {
+    font-family: "Dosis SemiBold" !important;
+    color: #0a83c1 !important;
+    font-size: 1rem !important;
+    text-transform: uppercase;
+}
+
+#home_products .product_btn {
+    font-family: "Dosis Bold" !important;
+    color: #ffffff !important;
+    background-color: #fe9814 !important;
+    border: 1px solid #fe9814 !important;
+    height: auto !important;
+    font-size: 0.875rem !important;
+    text-transform: uppercase;
+    padding: 15px 30px 17px 30px !important;
+}
+
+/****************** home chiffres *********************/
+#delice_home_chiffres {
+    padding: 50px 0;
+}
+
+#delice_home_chiffres .content_chiffres {
+    color: #0d8dc8;
+    text-align: center;
+    line-height: 1.2rem;
+}
+
+#delice_home_chiffres .content_chiffres .title {
+    font-family: "Dosis Bold";
+    font-size: 1.06rem;
+    text-transform: uppercase
+}
+
+#delice_home_chiffres .content_chiffres .descirption {
+    font-family: "Dosis SemiBold";
+    font-size: 0.87rem;
+    text-transform: uppercase
+}
+
+/****************** delice videos *********************/
+#delice_videos {
+    padding: 67px 0;
+}
+
+#delice_videos figure img {
+    width: 95%;
+}
+
+#delice_videos .heading {
+    position: relative;
+    margin-top: 3rem;
+}
+
+#delice_videos .heading::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 7%;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    width: 41px;
+    height: 13px;
+    background: url('../images/heading_item.png') top left no-repeat;
+}
+
+#delice_videos .heading .title {
+    font-family: "Dosis Bold";
+    color: #0a83c1;
+    font-size: 1.56rem;
+    text-transform: uppercase;
+}
+
+#delice_videos .heading .subtitle {
+    font-family: "Aller Regular";
+    color: #0a83c1;
+    font-size: 1.37rem;
+}
+
+#delice_videos .heading .subtitle b {
+    font-family: "Aller Bold";
+    color: #99c423;
+}
+
+#delice_videos .description {
+    font-family: "Roboto LightItalic";
+    color: #21479c;
+    max-width: 400px;
+    font-size: 0.75rem;
+    margin-bottom: 20px;
+}
+
+#delice_videos .btn-go-to-video {
+    background-color: #0a83c1;
+    border: 1px solid #0a83c1;
+    color: #ffffff;
+    font-family: "Dosis Bold";
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    padding: .575rem 1.25rem;
+    text-decoration: none;
+}
+
+/****************** delice and you *********************/
+#deliceandyou {
+    padding: 2vh 0;
+    background-repeat: no-repeat !important;
+    background-position: left center !important;
+    background-size: cover !important;
+}
+
+#deliceandyou .vc_row {
+    padding: 0 !important;
+}
+
+#deliceandyou .title {
+    color: #0a83c1;
+    font-family: "Dosis SemiBold";
+    font-size: 2.69rem;
+}
+
+#deliceandyou .description {
+    font-family: "Roboto LightItalic";
+    color: #21479c;
+    max-width: 400px;
+    font-size: 0.75rem;
+    margin-bottom: 20px;
+}
+
+#deliceandyou .btn-go-to-video {
+    background-color: #0a83c1;
+    border: 1px solid #0a83c1;
+    color: #ffffff;
+    font-family: "Dosis Bold";
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    padding: .575rem 1.25rem;
+    text-decoration: none;
+}
+
+/****************** footer *********************/
+#footer .top-footer {
+    padding: 15px 0 30px 0;
+    background: #0e5376;
+}
+
+#footer .top-footer .widget-title {
+    margin-top: 20px;
+    color: #3198cc;
+    font-size: 1.25rem;
+    font-family: "Dosis Bold";
+    text-transform: uppercase;
+}
+
+#footer .top-footer .textwidget p {
+    color: #a7d4eb;
+    font-family: "Roboto Light";
+    font-size: 0.68rem;
+}
+
+#footer .top-footer .delice-social-media ul {
+    display: flex;
+    display: -ms-flex;
+    list-style-type: none;
+}
+
+#footer .top-footer .delice-social-media ul li {
+    color: #bfe7fc;
+    margin-right: 17px;
+    font-size: 1.5rem;
+}
+
+#footer .top-footer .delice-social-media ul li i {
+    color: #bfe7fc;
+    font-size: 1.5rem;
+}
+
+#footer .bottom-footer {
+    background: #08415d;
+    color: #a7e1ff;
+    font-family: "Roboto Light";
+    font-size: 0.68rem;
+    padding: 17px 0;
+}
+
+#footer .bottom-footer .copyright {
+    text-align: center;
+}
+
+/****************** notre mission *********************/
+/****************** banner *********************/
+#notre-mission-banner {
+    padding: 17.9vh 0;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#notre-mission-banner .title {
+    position: relative;
+    font-family: "Dosis Bold";
+    color: #ffffff;
+    font-size: 2.18rem;
+    text-transform: uppercase;
+}
+
+#notre-mission-banner .title::after {
+    content: "";
+    position: absolute;
+    left: 48%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: url('../images/page-header-shape.png') top left no-repeat;
+    width: 20px;
+    height: 14px;
+}
+
+#notre-mission-banner .description {
+    font-family: "Roboto Light";
+    color: #ffffff;
+    font-size: 0.87rem;
+}
+
+/****************** fondateur *********************/
+#fondateur .title {
+    color: #0a83c1;
+    font-family: "Dosis Bold";
+    font-size: 1.56rem;
+    text-transform: uppercase;
+}
+
+#fondateur .subtitle {
+    color: #99c423;
+    font-family: "Aller Bold";
+    font-size: 1.37rem;
+}
+
+#fondateur .subtitle .fondateur {
+    position: relative;
+}
+
+#fondateur .subtitle .fondateur::after {
+    content: "";
+    width: 30px;
+    height: 4px;
+    background: #99c423;
+    position: absolute;
+    bottom: -45%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#fondateur .description {
+    color: #1d729d;
+    font-family: "Roboto Medium";
+    font-size: 0.75rem;
+    max-width: 710px;
+    text-align: justify;
+}
+
+#fondateur .description label {
+    font-family: "Roboto Bold";
+}
+
+/****************** histoire *********************/
+#histoire {
+    padding: 50px 0;
+    background: #f4fbfe;
+}
+
+#histoire .title {
+    color: #0a83c1;
+    font-family: "Dosis Bold";
+    font-size: 2.18rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#hitsoire .year {
+    color: #ededed !important;
+    font-family: "Dosis Bold" !important;
+    font-size: 5.54rem !important;
+}
+
+#histoire .year.active {
+    font-size: 9.19rem !important;
+    color: #0a83c1 !important;
+    -webkit-box-shadow: 0px 14px 21px 0px rgba(10, 131, 193, 0.27);
+    -moz-box-shadow: 0px 14px 21px 0px rgba(10, 131, 193, 0.27);
+    box-shadow: 0px 14px 21px 0px rgba(10, 131, 193, 0.27);
+}
+
+#histoire .tp-leftarrow {
+    background: url('../images/histoire-left-arrow.png') left top no-repeat !important;
+    width: 82px !important;
+    height: 86px !important;
+}
+
+#histoire .tp-leftarrow::before {
+    content: "\e82c";
+    margin-left: -100000px !important;
+    opacity: 0;
+}
+
+#histoire .tp-rightarrow {
+    background: url('../images/histoire-rightt-arrow.png') left top no-repeat !important;
+    width: 82px !important;
+    height: 86px !important;
+}
+
+#histoire .tp-rightarrow::before {
+    content: "\e82c";
+    margin-right: -100000px !important;
+}
+
+.tp-bannertimer {
+    background: rgba(153, 196, 35, 0.15) none repeat scroll 0% 0% !important;
+}
+
+/****************** strategie *********************/
+#strategie {
+    padding-top: 50px;
+}
+
+#strategie .title {
+    color: #0a83c1;
+    font-family: "Dosis Bold";
+    font-size: 2.18rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#delice-strategie {
+    padding: 100px 0;
+}
+
+.col-strategie {
+    padding-top: 60px;
+    width: 20% !important;
+    margin-right: 75px;
+    -webkit-box-shadow: 0px 20px 20px 0px rgba(52, 163, 219, 0.2);
+    -moz-box-shadow: 0px 20px 20px 0px rgba(52, 163, 219, 0.2);
+    box-shadow: 0px 20px 20px 0px rgba(52, 163, 219, 0.2);
+}
+
+.col-strategie:last-child {
+    margin-right: 0;
+}
+
+#delice-strategie .line.wpb_content_element {
+    margin-bottom: 5px !important;
+}
+
+.delice-strategie-content {
+    color: #0a83c1;
+    font-size: 1.06rem;
+    text-align: center;
+}
+
+.delice-strategie-content .content-title {
+    font-family: "Dosis SemiBold";
+}
+
+.delice-strategie-content .content-description {
+    font-family: "Dosis Bold";
+    min-height: 55px;
+}
+
+/****************** delice valeurs *********************/
+#delice-valeurs {
+    position: relative;
+    padding: 5vh 0;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#delice-valeurs .wpb_content_element {
+    margin-bottom: 0 !important;
+}
+
+#delice-valeurs {
+    position: relative;
+    padding: 5vh 0;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#delice-valeurs #nos-valeurs-right-item {
+    position: absolute;
+    top: 83%;
+    left: 15px;
+    z-index: 9999;
+}
+
+#delice-valeurs #nos-valeurs-left-item {
+    position: absolute;
+    bottom: 70%;
+    right: 0;
+    z-index: 9999;
+}
+
+#delice-valeurs .title {
+    font-family: "AveFedanPERSONALUSE";
+    color: #ffffff;
+    font-size: 5.95rem;
+    text-align: center;
+    line-height: 5rem;
+}
+
+.delice-valeurs-tabs {
+    position: relative;
+    margin-top: 70px;
+}
+
+.delice-valeurs-tabs #pills-tab.nav {
+    align-items: center;
+    justify-content: center;
+}
+
+.delice-valeurs-tabs #pills-tabContent {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.delice-valeurs-tabs #pills-tabContent p {
+    max-width: 707px;
+    font-size: 0.75rem;
+    color: #ffffff;
+    font-family: "Roboto Medium";
+    margin: 0 auto;
+    min-height: 85px;
+}
+
+.nav-link {
+    margin-right: 15px;
+    border: 1px solid #fcfefe;
+    border-radius: 1.25rem !important;
+    line-height: 1.34rem;
+    padding: .525rem 1.85rem !important;
+    font-size: 0.875rem;
+    font-family: "Dosis Bold";
+    color: #0a83c1;
+    text-decoration: none;
+    background-color: #fcfefe;
+    text-transform: uppercase;
+}
+
+.nav-link.active, .nav-link:hover {
+    border-color: #ffffff;
+    background-color: transparent !important;
+    color: #ffffff;
+}
+
+#delice-valeurs .items-prlx {
+    position: absolute;
+    z-index:0;
+    width: 100%;
+    height: 100%
+}
+
+#delice-valeurs .items__inner,#delice-valeurs .items__layer {
+    width: 100%;
+    height: 100%
+}
+
+#delice-valeurs .img-prlx-1 {
+    position: absolute;
+    top:0;
+    right: -217px;
+}
+
+#delice-valeurs .img-prlx-2 {
+    position: absolute;
+    bottom: -122px;
+    left: -280px;
+}
+
+/****************** marques *********************/
+#marques {
+    padding-top: 50px;
+}
+
+#marques .title {
+    color: #0a83c1;
+    font-family: "Dosis Bold";
+    font-size: 2.18rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+/****************** engagement qualite rse *********************/
+/****************** banner *********************/
+#engagement-qualite-banner {
+    padding: 9vh 0;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#engagement-qualite-banner .subtitle {
+    position: relative;
+    font-family: "Dosis SemiBold";
+    color: #b7cb1e;
+    font-size: 1.56rem;
+    text-transform: uppercase;
+}
+
+#engagement-qualite-banner .title {
+    position: relative;
+    font-family: "Dosis Bold";
+    color: #ffffff;
+    font-size: 2.18rem;
+    text-transform: uppercase;
+}
+
+#engagement-qualite-banner .title::after {
+    content: "";
+    position: absolute;
+    left: 75%;
+    top: 60%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: url('../images/page-header-shape.png') top left no-repeat;
+    width: 20px;
+    height: 14px;
+}
+
+#engagement-qualite-banner .description {
+    font-family: "Roboto Light";
+    color: #ffffff;
+    font-size: 0.87rem;
+}
+
+#delice-energie {
+    padding: 70px 0;
+    background-repeat: no-repeat !important;
+    background-position: left center !important;
+    background-size: cover !important;
+}
+
+#delice-energie .delice-energie-subtitle {
+    font-size: 1.8rem;
+    font-family: "Dosis Medium";
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+#delice-energie .delice-energie-title {
+    font-size: 2.18rem;
+    font-family: "Dosis Bold";
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+#delice-energie .delice-energie-description {
+    font-family: "Roboto Light";
+    color: #255f8e;
+    font-size: 0.875rem;
+    text-align: center;
+    max-width: 845px;
+    margin: 35px auto 720px;
+}
+
+#delice-historique-energie {
+    margin-bottom: 30px !important;
+}
+
+#delice-historique-energie .delice-historique-energie-title {
+    font-size: 2rem;
+    font-family: "Dosis Bold";
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+#delice-historique-energie .delice-historique-energie-description {
+    font-family: "Dosis Medium";
+    color: #91a3ad;
+    font-size: 1.37rem;
+    text-align: center;
+}
+
+#delice-energie-historique-values .description-value {
+    font-size: 1.06rem;
+    font-family: "Dosis Bold";
+    text-align: center;
+}
+
+#delice-energie-historique-values .wpb_content_element {
+    margin-bottom: 0;
+}
+
+#delice-energie-historique-values .description-value.gaz-description-value {
+    color: #b7cb1e;
+}
+
+#delice-energie-historique-values .description-value.electricite-description-value {
+    color: #ff9508;
+}
+
+#delice-energie-historique-values .description-value.eau-description-value {
+    color: #0d8dc8;
+}
+
+/****************** engagement recherche et innovation *********************/
+/****************** banner *********************/
+#engagement-recherche-et-innovation-banner {
+    padding: 15vh 0;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#engagement-recherche-et-innovation-banner .subtitle {
+    position: relative;
+    font-family: "Dosis SemiBold";
+    color: #b7cb1e;
+    font-size: 1.56rem;
+    text-transform: uppercase;
+}
+
+#engagement-recherche-et-innovation-banner .title {
+    position: relative;
+    font-family: "Dosis Bold";
+    color: #ffffff;
+    font-size: 2.18rem;
+    text-transform: uppercase;
+}
+
+#engagement-recherche-et-innovation-banner .title::after {
+    content: "";
+    position: absolute;
+    left: 81%;
+    top: 60%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: url('../images/page-header-shape.png') top left no-repeat;
+    width: 20px;
+    height: 14px;
+}
+
+#engagement-recherche-et-innovation-banner .description {
+    font-family: "Roboto Light";
+    color: #ffffff;
+    font-size: 0.87rem;
+}
+
+#notre-engagement-sante {
+    padding: 15vh 0;
+    background-repeat: no-repeat !important;
+    background-position: left center !important;
+    background-size: cover !important;
+}
+
+#notre-engagement-sante .subtitle {
+    position: relative;
+    font-family: "Dosis Medium";
+    color: #00c6ff;
+    font-size: 1.81rem;
+    text-transform: uppercase;
+}
+
+#notre-engagement-sante .title {
+    position: relative;
+    font-family: "Dosis Bold";
+    color: #0a83c1;
+    font-size: 2.18rem;
+    text-transform: uppercase;
+}
+
+#notre-engagement-sante .description {
+    font-family: "Roboto Light";
+    color: #255f8e;
+    font-size: 0.87rem;
+}
+
+#engagement-sate-chartes .title {
+    margin-top: 130px;
+    font-family: "Dosis Bold";
+    color: #0a83c1;
+    font-size: 2.18rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+#engagement-sate-chartes .description {
+    font-family: "Dosis Medium";
+    color: #0a83c1;
+    font-size: 1.37rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#engagement-sate-chartes .values {
+    font-family: "Dosis Bold";
+    color: #aac71f;
+    font-size: 4.68rem;
+}
+
+#engagement-sate-chartes .values p {
+    text-align: center;
+}
+
+/****************** origin de lait *********************/
+/****************** banner *********************/
+#origine-de-notre-lait {
+    padding: 17vh 0;
+    background-repeat: no-repeat !important;
+    background-position: bottom center !important;
+    background-size: cover !important;
+}
+
+#origine-de-notre-lait .subtitle {
+    position: relative;
+    font-family: "Dosis SemiBold";
+    color: #b7cb1e;
+    font-size: 1.56rem;
+    text-transform: uppercase;
+}
+
+#origine-de-notre-lait .title {
+    position: relative;
+    font-family: "Dosis Bold";
+    color: #ffffff;
+    font-size: 2.18rem;
+    text-transform: uppercase;
+}
+
+#origine-de-notre-lait .title::after {
+    content: "";
+    position: absolute;
+    left: 45%;
+    top: 60%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: url('../images/page-header-shape.png') top left no-repeat;
+    width: 20px;
+    height: 14px;
+}
+
+#origine-de-notre-lait .description {
+    font-family: "Roboto Light";
+    color: #ffffff;
+    font-size: 0.87rem;
+}
+
+#first-section {
+    padding: 8vh 0;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#first-section .value {
+    font-size: 7.65rem;
+    font-family: "Dosis Bold";
+    text-align: center;
+    line-height: 7rem;
+}
+
+#first-section .subtitle {
+    font-size: 1.33rem;
+    font-family: "Dosis Medium";
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#first-section .title {
+    font-size: 1.64rem;
+    font-family: "Dosis Medium";
+    text-transform: uppercase;
+    text-align: center;
+    text-align: center;
+}
+
+#second-section {
+    padding: 11vh 0;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#second-section .value {
+    font-size: 7.65rem;
+    font-family: "Dosis Bold";
+    text-align: center;
+    line-height: 7rem;
+}
+
+#second-section .subtitle {
+    font-size: 1.33rem;
+    font-family: "Dosis Medium";
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#second-section .title {
+    font-size: 1.64rem;
+    font-family: "Dosis Medium";
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#third-section {
+    padding: 8vh 0;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#third-section .value {
+    font-size: 7.65rem;
+    font-family: "Dosis Bold";
+    text-align: center;
+    line-height: 7rem;
+}
+
+#third-section .subtitle {
+    font-size: 1.33rem;
+    font-family: "Dosis Medium";
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#third-section .title {
+    font-size: 1.64rem;
+    font-family: "Dosis Medium";
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#section-oriign-lait {
+    margin-top: 5vh;
+}
+
+#section-oriign-lait .subtitle {
+    position: relative;
+    font-family: "Dosis Medium";
+    font-size: 1.81rem;
+    text-transform: uppercase;
+}
+
+#section-oriign-lait .title {
+    position: relative;
+    font-family: "Dosis Bold";
+    font-size: 2.18rem;
+    text-transform: uppercase;
+}
+
+#section-oriign-lait .description {
+    color: #255f8e;
+    font-size: 0.875rem;
+    font-family: "Roboto Light";
+}
+
+/****************** politique rh *********************/
+/****************** banner *********************/
+#politique-rh-banner {
+    padding: 16vh 0;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#politique-rh-banner .title {
+    position: relative;
+    font-family: "Dosis Bold";
+    color: #15a6c3;
+    font-size: 1.87rem;
+    text-transform: uppercase;
+}
+
+#politique-rh-banner .subtitle {
+    position: relative;
+    font-family: "Dosis Medium";
+    color: #15a6c3;
+    font-size: 1.87rem;
+    text-transform: uppercase;
+}
+
+#politique-rh-banner .title::after {
+    content: "";
+    position: absolute;
+    left: 62%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: url('../images/page-header-shape.png') top left no-repeat;
+    width: 20px;
+    height: 14px;
+}
+
+#politique-rh-banner .description {
+    font-family: "Roboto Medium";
+    color: #86a6bb;
+    font-size: 0.87rem;
+}
+
+#politique-rh {
+    margin: 35px 0;
+}
+
+#politique-rh .title {
+    font-family: "Dosis SemiBold";
+    color: #006ec8;
+    font-size: 1.93rem;
+}
+
+#politique-rh .description {
+    font-family: "Roboto Medium";
+    color: #7f8387;
+    font-size: 0.875rem;
+}
+
+.content-first-section-politique-rh,
+.content-second-section-politique-rh {
+    display: flex;
+    display: -ms-flex;
+}
+
+.col-caption {
+    width: 46% !important;
+    margin-right: 40px;
+    -webkit-box-shadow: 0px 31px 59px 0px rgba(148, 148, 148, 0.3);
+    -moz-box-shadow: 0px 31px 59px 0px rgba(148, 148, 148, 0.3);
+    box-shadow: 0px 31px 59px 0px rgba(148, 148, 148, 0.3);
+    height: 180px;
+}
+
+.col-caption .vc_column-inner {
+    padding: 0 !important;
+}
+
+#caption-politique-rh .col-caption:last-child {
+    margin-right: 0;
+}
+
+.content-first-section-politique-rh .caption {
+    width: 26%;
+    background: url('../images/first-section-caption.png') top left no-repeat;
+    min-height: 181px;
+}
+
+.content-first-section-politique-rh .content-caption {
+    width: 82%;
+    min-height: 181px;
+    background: #ffffff;
+    display: flex;
+    display: -ms-flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 1vw 0 2vw;
+}
+
+.content-second-section-politique-rh .caption {
+    width: 26%;
+    background: url('../images/second-section-caption.png') top left no-repeat;
+    min-height: 181px;
+}
+
+.content-second-section-politique-rh .content-caption {
+    width: 82%;
+    min-height: 181px;
+    background: #ffffff;
+    display: flex;
+    display: -ms-flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 1vw 0 2vw;
+}
+
+/****************** amont lait *********************/
+/****************** banner *********************/
+#amont-lait-banner {
+    padding: 16vh 0;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#amont-lait-banner .wpb_content_element {
+    margin-bottom: 10px !important;
+}
+
+#amont-lait-banner .title {
+    position: relative;
+    font-family: "Dosis Bold";
+    color: #ffffff;
+    font-size: 2.18rem;
+    text-transform: uppercase;
+}
+
+#amont-lait-banner .title::after {
+    content: "";
+    position: absolute;
+    left: 48%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: url('../images/page-header-shape.png') top left no-repeat;
+    width: 20px;
+    height: 14px;
+}
+
+#amont-lait-banner .description {
+    font-family: "Roboto Light";
+    color: #ffffff;
+    font-size: 0.87rem;
+}
+
+#producteur-lait p {
+    text-align: justify;
+}
+
+#producteur-lait .title {
+    font-family: "Dosis Bold";
+    color: #0a83c1;
+    font-size: 2.18rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+#producteur-lait .description {
+    font-size: 0.875rem;
+    color: #255f8e;
+    font-family: "Roboto Light";
+    margin-bottom: 0;
+}
+
+#producteur-lait .description-light {
+    font-size: 1.06rem;
+    color: #00c6ff;
+    font-family: "Roboto Bold";
+    margin-bottom: 0;
+}
+
+#producteur-lait .description-liste {
+    margin-bottom: 0;
+}
+
+#producteur-lait .description-liste ul {
+    list-style: none;
+}
+
+#producteur-lait .description-liste ul li {
+    position: relative;
+    color: #255f8e;
+    font-family: "Roboto Light";
+    font-size: 0.875rem;
+    line-height: 1rem;
+}
+
+#producteur-lait .description-liste ul li::before {
+    content: "•";
+    color: #00c6ff;
+    display: inline-block;
+    font-size: 2rem;
+    position: relative;
+    top: 8px;
+    left: -5px;
+}
+
+#producteur-lait .subtitle {
+    color: #00c6ff;
+    font-size: 1.06rem;
+    font-family: "Roboto Bold";
+    margin-bottom: 0 !important;
+}
+
+#pratiques-hygiene {
+    margin-top: 35px;
+    padding: 10vh 0;
+    background-repeat: no-repeat !important;
+    background-position: left center !important;
+    background-size: cover !important;
+}
+
+#pratiques-hygiene p {
+    text-align: justify;
+}
+
+#pratiques-hygiene .title {
+    color: #fbfeff;
+    font-family: "Dosis Bold";
+    font-size: 2.18rem;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 45px;
+}
+
+#pratiques-hygiene .title::after {
+    content: "";
+    width: 30px;
+    height: 4px;
+    position: absolute;
+    bottom: -65%;
+    left: 0;
+    -webkit-transform: translate(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: #fbfeff;
+}
+
+#pratiques-hygiene .description {
+    font-size: 0.875rem;
+    color: #fbfeff;
+    max-width: 420px;
+}
+
+#capacite-stockage .wpb_content_element {
+    margin-bottom: 0 !important;
+}
+
+#capacite-stockage p {
+    text-align: justify;
+}
+
+#capacite-stockage .title {
+    font-family: "Dosis Bold";
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 4rem;
+    color: #0a83c1;
+    line-height: 1.4rem;
+}
+
+#capacite-stockage .subtitle {
+    font-family: "Dosis SemiBold";
+    font-size: 1.61rem;
+    text-transform: uppercase;
+    position: relative;
+    color: #0a83c1;
+    font-weight: normal;
+    line-height: 1.4rem;
+}
+
+#capacite-stockage .subtitle::after {
+    content: "";
+    width: 30px;
+    height: 4px;
+    position: absolute;
+    bottom: -95%;
+    left: 0;
+    -webkit-transform: translate(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: #0a83c1;
+}
+
+#capacite-stockage .description {
+    font-family: "Roboto Medium";
+    font-size: 0.8rem;
+    color: #a0a0a0;
+    margin-top: 2rem;
+}
+
+#camion-citerne figure {
+    position: relative;
+    bottom: 5rem;
+}
+
+#camion-citerne .title {
+    font-family: "Dosis Bold";
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 10rem;
+    color: #0a83c1;
+    line-height: 1.4rem;
+}
+
+#camion-citerne .subtitle {
+    font-family: "Dosis SemiBold";
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    position: relative;
+    color: #0a83c1;
+    font-weight: normal;
+    line-height: 1.4rem;
+}
+
+#portail-fournisseur-lait .title {
+    font-family: "Dosis Bold";
+    font-size: 2.15rem;
+    text-transform: uppercase;
+    color: #0a83c1;
+    position: relative;
+}
+
+#portail-fournisseur-lait .title::after {
+    content: "";
+    width: 30px;
+    height: 4px;
+    position: absolute;
+    bottom: -25%;
+    left: 0;
+    -webkit-transform: translate(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: #fbfeff;
+}
+
+#portail-fournisseur-lait .description {
+    font-family: "Roboto Medium";
+    font-size: 0.8rem;
+    color: #fbfeff;
+    margin-top: 2rem;
+    max-width: 400px;
+}
+
+#portail-fournisseur-lait {
+    padding: 10vh 0;
+    background-repeat: no-repeat !important;
+    background-position: right center !important;
+    background-size: cover !important;
+}
+
+#delice-lait-video {
+    text-align: center;
+}
+
+#delice-lait-video .title {
+    font-family: "Dosis Bold";
+    font-size: 2.15rem;
+    text-transform: uppercase;
+    color: #0a83c1;
+    position: relative;
+    text-align: center;
+    line-height: 1.6rem;
+    margin-top: 6rem;
+}
+
+#delice-lait-video .subtitle {
+    font-family: "Dosis Bold";
+    font-size: 2.15rem;
+    text-transform: uppercase;
+    colro: #cfcfcf;
+    position: relative;
+    text-align: center;
+}
+
+#delice-lait-video .btn-go-to-video {
+    background-color: #0a83c1;
+    border: 1px solid #0a83c1;
+    color: #ffffff;
+    font-family: "Dosis Bold";
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    padding: .575rem 1.25rem;
+    text-decoration: none;
+}
+
+#delice-lait-video .amont-lait-cover-video {
+    width: 100%;
+    min-height: 368px;
+}
+
+#delice-lait-video .amont-lait-cover-video .icon-play {
+    width: 69px;
+    height: 69px;
+    background: url('../images/icon-play.png') center center no-repeat;
+    background-size: auto;
+    background-size: 100%;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+/****************** rapport financiers *********************/
+#rapports-financiers-banner {
+    padding: 20.35vh 0;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#rapports-financiers-banner .wpb_content_element {
+    margin-bottom: 10px !important;
+}
+
+#rapports-financiers-banner .title {
+    position: relative;
+    font-family: "Dosis Bold";
+    color: #ffffff;
+    font-size: 2.18rem;
+    text-transform: uppercase;
+}
+
+#rapports-financiers-banner .title::after {
+    content: "";
+    position: absolute;
+    left: 68%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: url('../images/page-header-shape.png') top left no-repeat;
+    width: 20px;
+    height: 14px;
+}
+
+#rapports-financiers-banner .btn-investisseurs {
+    color: #ffffff;
+    font-family: "Dosis SemiBold";
+    background-color: #a4be0e;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 0.99rem;
+    text-decoration: none;
+}
+
+.rapports-financiers .wpb_content_element {
+    margin-bottom: 25px !important;
+}
+
+.rapports-financiers .title-page {
+    line-height: 1.6rem;
+    font-family: "Dosis Bold";
+    text-transform: uppercase;
+}
+
+.rapports-financiers .subtitle-page {
+    line-height: 1.6rem;
+    font-family: "Dosis Medium";
+    text-transform: uppercase;
+}
+
+.rapports-financiers .block-content-pdf {
+    margin-top: 5vh;
+    -webkit-box-shadow: 0px 20px 20px 0px rgba(11, 140, 206, 0.09);
+    -moz-box-shadow: 0px 20px 20px 0px rgba(11, 140, 206, 0.09);
+    box-shadow: 0px 20px 20px 0px rgba(11, 140, 206, 0.09);
+    background: #ffffff;
+    display: flex;
+    display: -ms-flex;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    padding: 1vw;
+}
+
+.rapports-financiers .block-content-pdf .title {
+    font-family: "Dosis Bold";
+    color: #2e6f90;
+    font-size: 1.19rem;
+}
+
+.rapports-financiers .block-content-pdf .subtitle {
+    font-family: "Dosis Medium";
+    color: #77858c;
+    font-size: 0.88rem;
+}
+
+.rapports-financiers .block-content-pdf .links-pdf a {
+    font-family: "Dosis Bold";
+    color: #e2574c;
+    font-size: 1.04rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/****************** certifications *********************/
+#certifications {
+    padding: 10vh 0 0 0;
+    background-repeat: no-repeat !important;
+    background-position: left top !important;
+    background-size: cover !important;
+}
+
+#certificats .wpb_content_element {
+    margin-bottom: 10px !important;
+}
+
+#certificats .title {
+    font-family: "Roboto Medium";
+    color: #f7b95d;
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+#certifications .description {
+    margin-top: 30px;
+    font-family: "Roboto Light";
+    color: #737373;
+    font-size: 0.875rem;
+}
+
+/****************** partenariats strategiques *********************/
+#partenariats-strategiques-banner {
+    padding: 20.35vh 0;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#partenariats-strategiques-banner .wpb_content_element {
+    margin-bottom: 10px !important;
+}
+
+#partenariats-strategiques-banner .wpb_content_element {
+    margin-bottom: 10px !important;
+}
+
+#partenariats-strategiques-banner .title {
+    position: relative;
+    font-family: "Dosis Bold";
+    color: #ffffff;
+    font-size: 2.18rem;
+    text-transform: uppercase;
+}
+
+#partenariats-strategiques-banner .title::after {
+    content: "";
+    position: absolute;
+    left: 89%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: url('../images/page-header-shape.png') top left no-repeat;
+    width: 20px;
+    height: 14px;
+}
+
+#partenariats-strategiques-banner .btn-investisseurs {
+    color: #ffffff;
+    font-family: "Dosis SemiBold";
+    background-color: #a4be0e;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 0.99rem;
+    text-decoration: none;
+}
+
+#partenariat {
+    padding: 8vh 0;
+}
+
+#partenariat #danone,
+#partenariat #Bongrainsa {
+    background: #eaf6fa;
+    width: 45%;
+    padding: 2rem 1rem;
+    min-height: 405px;
+}
+
+#partenariat #danone {
+    margin-right: 6rem;
+}
+
+#partenariat .title {
+    font-size: 2.18rem;
+    font-family: "Dosis Bold";
+    text-transform: uppercase;
+}
+
+#partenariat .description {
+    font-family: "Roboto Light";
+    font-size: 0.874rem;
+    color: #255f8e;
+    margin-bottom: 0 !important;
+}
+
+/******************* chiffres cle *********************/
+#chiffres-cles-banner {
+    padding: 22.1vh 0;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#chiffres-cles-banner .vc_column-inner {
+    padding-top: 0 !important;
+}
+
+#chiffres-cles-banner .wpb_content_element {
+    margin-bottom: 10px !important;
+}
+
+#chiffres-cles-banner .title {
+    position: relative;
+    font-family: "Dosis Bold";
+    color: #ffffff;
+    font-size: 2.18rem;
+    text-transform: uppercase;
+}
+
+#chiffres-cles-banner .title::after {
+    content: "";
+    position: absolute;
+    left: 46%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: url('../images/page-header-shape.png') top left no-repeat;
+    width: 20px;
+    height: 14px;
+}
+
+#chiffres-cles-banner .btn-investisseurs {
+    color: #ffffff;
+    font-family: "Dosis SemiBold";
+    background-color: #a4be0e;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 0.99rem;
+    text-decoration: none;
+}
+
+#chiffres-cles .wpb_content_element {
+    margin-bottom: 25px !important;
+}
+
+#chiffres-cles .title-page {
+    line-height: 1.6rem;
+    font-family: "Dosis Bold";
+    text-transform: uppercase;
+}
+
+#chiffres-cles .subtitle-page {
+    line-height: 1.6rem;
+    font-family: "Dosis Medium";
+    text-transform: uppercase;
+}
+
+.block-chiffre {
+    padding: 35px 15px;
+    margin-top: 35px !important;
+    margin-bottom: 35px !important;
+    background: #ffffff;
+    -webkit-box-shadow: 0px 3px 25px 0px rgba(11, 140, 206, 0.2);
+    -moz-box-shadow: 0px 3px 25px 0px rgba(11, 140, 206, 0.2);
+    box-shadow: 0px 3px 25px 0px rgba(11, 140, 206, 0.2);
+}
+
+.block-chiffre .wpb_content_element {
+    margin-bottom: 5px !important;
+}
+
+.block-chiffre .first-chiffre {
+    color: #0bacff;
+    text-align: center;
+}
+
+.block-chiffre .second-chiffre {
+    color: #99c423;
+    text-align: center;
+}
+
+.block-chiffre .third-chiffre {
+    color: #ff9508;
+    text-align: center;
+}
+
+.block-chiffre .forth-chiffre {
+    color: #8163f0;
+    text-align: center;
+}
+
+.block-chiffre .title-block-chiffre {
+    font-size: 0.93rem;
+    color: #0a83c1;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Dosis Bold";
+    margin-bottom: 35px;
+}
+
+.block-chiffre .title-chiffre {
+    font-size: 0.93rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Dosis Bold";
+    line-height: 1rem;
+    min-height: 35px;
+}
+
+.block-chiffre .chiffre,
+.block-chiffre .percent,
+.block-chiffre .number {
+    font-size: 2.5rem;
+    font-family: "Roboto Light";
+    text-align: center;
+}
+
+.block-chiffre .chiffre p,
+.block-chiffre .percent p,
+.block-chiffre .number p {
+    display: inline;
+    position: relative;
+}
+
+.block-chiffre .chiffre p::after {
+    content: "KDT";
+    font-family: "Dosis Medium";
+    font-size: 1.4rem;
+    position: absolute;
+    right: -58px;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.block-chiffre .percent p::after {
+    content: "%";
+    font-family: "Dosis Medium";
+    font-size: 1.4rem;
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.block-chiffre .first-chiffre .btn-chiffre {
+    color: #ffffff;
+    font-family: "Dosis Bold";
+    background-color: #0bacff;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 0.92rem;
+    text-decoration: none;
+}
+
+.block-chiffre .second-chiffre .btn-chiffre {
+    color: #ffffff;
+    font-family: "Dosis Bold";
+    background-color: #99c423;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 0.92rem;
+    text-decoration: none;
+}
+
+.block-chiffre .third-chiffre .btn-chiffre {
+    color: #ffffff;
+    font-family: "Dosis Bold";
+    background-color: #ff9508;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 0.92rem;
+    text-decoration: none;
+}
+
+.block-chiffre .forth-chiffre .btn-chiffre {
+    color: #ffffff;
+    font-family: "Dosis Bold";
+    background-color: #8163f0;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 0.92rem;
+    text-decoration: none;
+}
+
+/****************** societe du groupe *********************/
+#societes-du-groupe-banner {
+    padding: 16.75vh 0;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#societes-du-groupe-banner .wpb_content_element {
+    margin-bottom: 10px !important;
+}
+
+#societes-du-groupe-banner .wpb_content_element {
+    margin-bottom: 10px !important;
+}
+
+#societes-du-groupe-banner .title {
+    position: relative;
+    font-family: "Dosis Bold";
+    color: #ffffff;
+    font-size: 2.18rem;
+    text-transform: uppercase;
+}
+
+#societes-du-groupe-banner .title::after {
+    content: "";
+    position: absolute;
+    left: 64%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: url('../images/page-header-shape.png') top left no-repeat;
+    width: 20px;
+    height: 14px;
+}
+
+#societes-du-groupe-banner .description {
+    font-family: "Roboto Light";
+    color: #e4f5fe;
+    font-size: 0.87rem;
+}
+
+#societes-du-groupe-banner .btn-investisseurs {
+    color: #ffffff;
+    font-family: "Dosis SemiBold";
+    background-color: #a4be0e;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 0.99rem;
+    text-decoration: none;
+}
+
+#societes-du-groupe figure {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#societes-du-groupe .title {
+    font-family: "Dosis SemiBold" !important;
+    color: #00c6ff !important;
+    font-size: 1.8rem !important;
+    text-transform: uppercase;
+}
+
+#societes-du-groupe .subtitle {
+    font-family: "Dosis Bold" !important;
+    font-size: 2rem !important;
+    color: #0a83c1 !important;
+    text-transform: uppercase;
+}
+
+#societes-du-groupe .description {
+    font-family: "Roboto Light" !important;
+    font-size: 0.9rem !important;
+    color: #255f8e !important;
+}
+
+#societes-du-groupe .description div {
+    font-size: 0.9rem !important;
+}
+
+#societes-du-groupe .tp-leftarrow {
+    background: url('../images/histoire-left-arrow.png') left top no-repeat !important;
+    width: 82px !important;
+    height: 86px !important;
+}
+
+#societes-du-groupe .tp-leftarrow::before {
+    content: "\e82c";
+    margin-left: -1000000px !important;
+    opacity: 0;
+}
+
+#societes-du-groupe .tp-rightarrow {
+    background: url('../images/histoire-rightt-arrow.png') left top no-repeat !important;
+    width: 82px !important;
+    height: 86px !important;
+}
+
+#societes-du-groupe .tp-rightarrow::before {
+    content: "\e82c";
+    margin-right: -1000000px !important;
+    opacity: 0;
+}
+
+/****************** conseil administration *********************/
+#conseil-administration-banner {
+    padding: 13.64vh 0;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#conseil-administration-banner .wpb_content_element {
+    margin-bottom: 10px !important;
+}
+
+#conseil-administration-banner .title {
+    position: relative;
+    font-family: "Dosis Bold";
+    color: #ffffff;
+    font-size: 2.18rem;
+    text-transform: uppercase;
+}
+
+#conseil-administration-banner .title::after {
+    content: "";
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: url('../images/page-header-shape.png') top left no-repeat;
+    width: 20px;
+    height: 14px;
+}
+
+#conseil-administration-banner .description {
+    font-family: "Roboto Light";
+    color: #e4f5fe;
+    font-size: 0.87rem;
+}
+
+#conseil-administration-banner .btn-investisseurs {
+    color: #ffffff;
+    font-family: "Dosis SemiBold";
+    background-color: #a4be0e;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 0.99rem;
+    text-decoration: none;
+}
+
+#conseil-administration {
+    padding: 50px 0;
+}
+
+#conseil-administration .subtitle {
+    font-size: 1.8rem;
+    color: #00c6ff;
+    font-family: "Dosis Medium";
+    text-transform: uppercase;
+    line-height: 1rem;
+}
+
+#conseil-administration .title {
+    font-size: 2.18rem;
+    color: #0a83c1;
+    font-family: "Dosis Bold";
+    text-transform: uppercase;
+    line-height: 1.8rem;
+    margin-bottom: 100px;
+}
+
+.content-staf-delice .display-left {
+    display: flex;
+    display: -ms-flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: flex-start;
+    -moz-align-items: flex-start;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+}
+
+.content-staf-delice .display-left {
+    display: flex;
+    display: -ms-flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.content-staf-delice .display-right {
+    display: flex;
+    display: -ms-flex;
+    -webkit-flex-direction: row-reverse;
+    -moz-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    -webkit-align-items: flex-end;
+    -moz-align-items: flex-end;
+    -ms-align-items: flex-end;
+    align-items: flex-end;
+}
+
+.content-staf-delice .align-top {
+    position: relative;
+    bottom: 3rem
+}
+
+.content-staf-delice .align-bottom {
+    position: relative;
+    top: 3rem
+}
+
+.content-staf-delice .delice-staf {
+    text-align: center;
+}
+
+.content-staf-delice .staf-title .staf-name {
+    font-size: 0.81rem;
+    color: #005ea7;
+    text-transform: uppercase;
+    font-family: "Dosis Bold";
+}
+
+.content-staf-delice .staf-title .staf-poste {
+    font-size: 0.75rem;
+    color: #00c6ff;
+    text-transform: uppercase;
+    font-family: "Dosis Medium";
+}
+
+.content-staf-delice .boss .staf-title .staf-name {
+    font-size: 1.25rem;
+    color: #005ea7;
+    text-transform: uppercase;
+    font-family: "Dosis SemiBold";
+}
+
+.content-staf-delice .boss .staf-title .staf-poste {
+    font-size: 0.93rem;
+    color: #99c423;
+    text-transform: uppercase;
+    font-family: "Dosis Medium";
+}
+
+#comites-aministration .subtitle {
+    font-size: 1.8rem;
+    color: #00c6ff;
+    font-family: "Dosis Medium";
+    text-transform: uppercase;
+    line-height: 1rem;
+    margin-top: 50px;
+}
+
+#comites-aministration .title {
+    font-size: 2.18rem;
+    color: #0a83c1;
+    font-family: "Dosis Bold";
+    text-transform: uppercase;
+    line-height: 1.8rem;
+    margin-bottom: 35px;
+}
+
+#comites-aministration .description {
+    font-family: "Roboto Light";
+    color: #255f8e;
+    font-size: 0.87rem;
+    text-align: center;
+}
+
+#role-commistes-gestion {
+    padding: 0;
+    background-repeat: no-repeat !important;
+    background-position: left center !important;
+    background-size: cover !important;
+}
+
+#role-commistes-gestion .title {
+    font-family: "Dosis SemiBold" !important;
+    color: #1aa9f0 !important;
+    font-size: 1.8rem !important;
+    text-transform: uppercase;
+}
+
+#role-commistes-gestion .subtitle {
+    font-family: "Dosis Bold" !important;
+    color: #f3fafe !important;
+    font-size: 2.18rem !important;
+    text-transform: uppercase;
+}
+
+#role-commistes-gestion .extratitle {
+    font-size: 1.56rem !important;
+    font-family: "Dosis Medium" !important;
+    color: #99c423 !important;
+    text-transform: uppercase;
+}
+
+#role-commistes-gestion .description ul {
+    list-style-type: none;
+}
+
+#role-commistes-gestion .description ul li {
+    font-size: 0.875rem !important;
+    font-family: "Roboto Light" !important;
+    color: #ffffff !important;
+    line-height: 1.5rem !important;
+    position: relative;
+}
+
+#role-commistes-gestion .description ul li::before {
+    content: "-";
+    position: absolute;
+    top: 1px;
+    left: -10px;
+    color: #ffffff;
+}
+
+#role-commistes-gestion .tp-leftarrow {
+    background: url('../images/histoire-left-arrow.png') left top no-repeat !important;
+    width: 82px !important;
+    height: 86px !important;
+}
+
+#role-commistes-gestion .tp-leftarrow::before {
+    content: "\e82c";
+    margin-left: -100000px !important;
+    opacity: 0;
+}
+
+#role-commistes-gestion .tp-rightarrow {
+    background: url('../images/histoire-rightt-arrow.png') left top no-repeat !important;
+    width: 82px !important;
+    height: 86px !important;
+}
+
+#role-commistes-gestion .tp-rightarrow::before {
+    content: "\e82c";
+    margin-right: -100000px !important;
+    opacity: 0;
+}
+
+.tp-bgimg.defaultimg {
+    background-image: transparent !important;
+}
+
+#commissaires-comptes {
+    padding-bottom: 50px;
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
+    background-size: contain !important;
+}
+
+#commissaires-comptes .subtitle {
+    font-size: 1.8rem;
+    color: #00c6ff;
+    font-family: "Dosis Medium";
+    text-transform: uppercase;
+    line-height: 1rem;
+    margin-top: 25px;
+}
+
+#commissaires-comptes .title {
+    font-size: 2.18rem;
+    color: #0a83c1;
+    font-family: "Dosis Bold";
+    text-transform: uppercase;
+    line-height: 1.8rem;
+    margin-bottom: 70px;
+}
+
+#commissaires-comptes .description {
+    width: 400px;
+    margin: 0 auto 20px auto;
+    background: #fff;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 20px 20px 0px rgba(11, 140, 206, 0.09);
+    -moz-box-shadow: 0px 20px 20px 0px rgba(11, 140, 206, 0.09);
+    box-shadow: 0px 20px 20px 0px rgba(11, 140, 206, 0.09);
+    padding: 1.2rem 1.5rem;
+    text-align: center;
+}
+
+#commissaires-comptes .description .commissaire-poste {
+    font-family: "Dosis Bold";
+    color: #0a83c1;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+#commissaires-comptes .description .commissaire-name {
+    font-family: "Dosis SemiBold";
+    color: #ffae01;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+}
+
+#commissaires-comptes .description .commissaire-poste span {
+    color: #99c423
+}
+
+/****************** delice et vous *********************/
+/****************** delice et vous banner *********************/
+#delice-et-vous-banner {
+    padding: 14.85vh 0;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#delice-et-vous-banner .wpb_content_element {
+    margin-bottom: 10px !important;
+}
+
+#delice-et-vous-banner .title {
+    position: relative;
+    font-family: "Dosis Bold";
+    color: #ffffff;
+    font-size: 2.18rem;
+    text-transform: uppercase;
+    line-height: 2rem;
+}
+
+#delice-et-vous-banner .subtitle {
+    position: relative;
+    font-family: "Dosis Bold";
+    color: #ffffff;
+    font-size: 1.56rem;
+    text-transform: uppercase;
+    line-height: 1rem;
+}
+
+#delice-et-vous-banner .extratitle {
+    position: relative;
+    font-family: "Roboto Medium";
+    color: #d0e804;
+    font-size: 1.25rem;
+    margin-bottom: 0 !important;
+}
+
+#delice-et-vous-banner .subtitle::after {
+    content: "";
+    position: absolute;
+    left: 24%;
+    top: 55%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: url('../images/page-header-shape.png') top left no-repeat;
+    width: 20px;
+    height: 14px;
+}
+
+#delice-et-vous-banner .description {
+    font-family: "Roboto Light";
+    color: #ffffff;
+    font-size: 0.87rem;
+}
+
+#delice-composants {
+    background: #afe4ff;
+}
+
+#delice-composants .content-delice-milk {
+    position: relative;
+    text-align: center;
+    width: 820px;
+    margin: 0 auto;
+}
+
+#delice-composants .content-delice-milk .block-delice-energie {
+    position: absolute;
+    text-align: left;
+}
+
+#delice-composants .content-delice-milk .block-delice-energie ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#delice-composants .content-delice-milk .block-delice-energie h3 {
+    font-family: "Roboto Bold";
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin-bottom: 0;
+}
+
+#delice-composants .content-delice-milk .block-delice-energie ul li {
+    font-family: "Roboto Light";
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+#delice-composants .content-delice-milk .content-delice-energie {
+    position: relative;
+}
+
+#delice-composants .content-delice-milk .block-mineraux {
+    bottom: 14rem;
+    left: 0;
+    background: #f64770;
+    padding: .8rem;
+    border-radius: 5px;
+    width: 308px;
+    height: 142px;
+}
+
+#delice-composants .content-delice-milk .block-mineraux .content-delice-energie::after {
+    content: "";
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background: #f64770;
+    position: absolute;
+    top: 0;
+    right: -43px;
+}
+
+#delice-composants .content-delice-milk .block-vitamines-hydrosolubes {
+    bottom: 4rem;
+    left: 0;
+    background: #97b735;
+    padding: .8rem;
+    border-radius: 5px;
+    width: 308px;
+    height: 142px;
+}
+
+#delice-composants .content-delice-milk .block-vitamines-hydrosolubes .content-delice-energie::after {
+    content: "";
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background: #97b735;
+    position: absolute;
+    top: 0;
+    right: -68px;
+}
+
+#delice-composants .content-delice-milk .block-eau {
+    bottom: 19rem;
+    right: 0;
+    background: #04b6dc;
+    padding: .8rem;
+    border-radius: 5px;
+    width: 260px;
+}
+
+#delice-composants .content-delice-milk .block-eau .content-delice-energie::after {
+    content: "";
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background: #04b6dc;
+    position: absolute;
+    top: 0;
+    left: -64px;
+}
+
+#delice-composants .content-delice-milk .block-proteines {
+    bottom: 13rem;
+    right: 0;
+    background: #ff9715;
+    padding: .8rem;
+    border-radius: 5px;
+    width: 260px;
+}
+
+#delice-composants .content-delice-milk .block-proteines .content-delice-energie::after {
+    content: "";
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background: #ff9715;
+    position: absolute;
+    top: 0;
+    left: -64px;
+}
+
+#delice-composants .content-delice-milk .block-vitamines-liposolubles {
+    bottom: 7rem;
+    right: 0;
+    background: #c774ea;
+    padding: .8rem;
+    border-radius: 5px;
+    width: 260px;
+}
+
+#delice-composants .content-delice-milk .block-vitamines-liposolubles .content-delice-energie::after {
+    content: "";
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background: #c774ea;
+    position: absolute;
+    top: 0;
+    left: -69px;
+}
+
+#delice-composants .description {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-family: "Roboto Medium";
+    color: #1e95af;
+    text-align: center;
+}
+
+#delice-composants .description .title {
+    text-transform: uppercase;
+    font-size: 1.06rem;
+    text-transform: uppercase;
+}
+
+#delice-composants .description .subtitle {
+    text-transform: uppercase;
+    font-size: 0.81rem;
+}
+
+#apport-nutritionnel {
+    padding: 5vh 0;
+}
+
+#apport-nutritionnel .title {
+    font-size: 1.25rem;
+    font-family: "Roboto Medium";
+    color: #0b8cce;
+}
+
+#apport-nutritionnel .description {
+    font-size: 0.812rem;
+    font-family: "Roboto Medium";
+    color: #3389be;
+    text-align: justify;
+}
+
+#apport-nutritionnel-journaliers .title {
+    font-size: 0.98rem;
+    font-family: "Roboto Medium";
+    color: #7baec6;
+    margin-bottom: 35px;
+}
+
+#consommation-lait {
+    padding: 10vh 0;
+    background-repeat: no-repeat !important;
+    background-position: right top !important;
+    background-size: contain !important;
+}
+
+#consommation-lait .title {
+    font-family: "AveFedanPERSONALUSE";
+    color: #0b8cce;
+    font-size: 2.18rem;
+    line-height: 1.5rem;
+}
+
+#consommation-lait .subtitle {
+    font-size: 1.56rem;
+    color: #0b8cce;
+    font-family: "Dosis Bold";
+    line-height: 1.5rem;
+    text-transform: uppercase;
+}
+
+#consommation-lait ul {
+    list-style: none;
+    margin-top: 30px;
+}
+
+#consommation-lait ul li {
+    position: relative;
+    color: #6595ac;
+    font-family: "Roboto Medium";
+    font-size: 0.875rem;
+    line-height: 1rem;
+    padding-left: 15px;
+}
+
+#consommation-lait ul li::before {
+    content: "•";
+    color: #0b8cce;
+    display: inline-block;
+    font-size: 2rem;
+    position: relative;
+    top: 7px;
+    left: -15px;
+}
+
+#delice-lait-fromage {
+    padding: 0;
+}
+
+#delice-lait-fromage .vc_column-inner {
+    padding-top: 0 !important;
+}
+
+#delice-lait-fromage .wpb_content_element {
+    margin-bottom: 0 !important;
+}
+
+#delice-lait-fromage .description {
+    font-family: "Roboto Medium";
+    color: #fefefe;
+    font-size: 0.875rem;
+    margin-top: 90px;
+    text-align: justify;
+}
+
+#delice-lait-fromage .description-liste ul {
+    list-style: none;
+    margin-top: 30px;
+}
+
+#delice-lait-fromage .description-liste ul li {
+    position: relative;
+    color: #39f19d;
+    font-family: "Roboto Medium";
+    font-size: 0.875rem;
+    line-height: 1rem;
+}
+
+#delice-importance {
+    padding: 35px 0;
+}
+
+#delice-importance .title {
+    margin-top: 35px;
+    font-family: "AveFedanPERSONALUSE";
+    color: #0b8cce;
+    font-size: 2.18rem;
+    line-height: 1.5rem;
+}
+
+#delice-importance .subtitle {
+    font-size: 1.56rem;
+    color: #0b8cce;
+    font-family: "Dosis Bold";
+    line-height: 1.5rem;
+    text-transform: uppercase;
+}
+
+#delice-importance .extratitle {
+    font-size: 1rem;
+    color: #0b8cce;
+    font-family: "Roboto Medium";
+    text-align: justify !important;
+}
+
+#delice-importance .description {
+    font-size: 0.81rem;
+    color: #0b8cce;
+    font-family: "Roboto Medium";
+    text-align: justify;
+}
+
+#delice-importance .wpb_content_element {
+    margin-bottom: 12px !important;
+}
+
+#repas-diversifier {
+    padding: 8vh 0;
+    background-repeat: no-repeat !important;
+    background-position: right top !important;
+    background-size: cover !important;
+}
+
+#repas-diversifier .title {
+    font-family: "Roboto Medium";
+    color: #0b8cce;
+    font-size: 1.25rem;
+}
+
+#repas-diversifier .description {
+    font-size: 0.81rem;
+    color: #0b8cce;
+    font-family: "Roboto Medium";
+    text-align: justify;
+}
+
+#importance-sport {
+    padding: 5vh 0;
+    background-repeat: no-repeat !important;
+    background-position: right top !important;
+    background-size: cover !important;
+}
+
+#importance-sport .title {
+    font-family: "AveFedanPERSONALUSE";
+    color: #ffffff;
+    font-size: 2.18rem;
+    line-height: 1.5rem;
+}
+
+#importance-sport .subtitle {
+    font-size: 1.56rem;
+    color: #ffffff;
+    font-family: "Dosis Bold";
+    line-height: 1.5rem;
+    text-transform: uppercase;
+}
+
+#importance-sport .extratitle {
+    font-size: 1.25rem;
+    color: #ffffff;
+    font-family: "Roboto Medium";
+    text-align: justify !important;
+}
+
+#importance-sport .description {
+    font-size: 0.812rem;
+    color: #ffffff;
+    font-family: "Roboto Medium";
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+#importance-sport .description p {
+    margin-bottom: 10px;
+}
+
+#importance-sport .description-liste ul {
+    list-style: none;
+}
+
+#importance-sport .description-liste ul li {
+    position: relative;
+    color: #ffffff;
+    font-family: "Roboto Medium";
+    font-size: 0.812rem;
+    line-height: 1rem;
+}
+
+#importance-sport .description-liste ul li::before {
+    content: "•";
+    color: #ffffff;
+    display: inline-block;
+    font-size: 2rem;
+    position: relative;
+    top: 7px;
+    left: -4px;
+}
+
+#delice-sentir-bien {
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#delice-sentir-bien .vc_column-inner {
+    padding-top: 0 !important;
+}
+
+#delice-sentir-bien .col-conseils-delice .vc_column-inner {
+    padding: 35px !important;
+}
+
+#delice-sentir-bien .title {
+    font-size: 1.25rem;
+    color: #0b8cce;
+    font-family: "Roboto Medium";
+}
+
+#delice-sentir-bien .description {
+    font-size: 0.81rem;
+    color: #0b8cce;
+    font-family: "Roboto Medium";
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+#delice-conseils-vie {
+    padding: 35px 0;
+}
+
+#delice-conseils-vie .title {
+    font-family: "AveFedanPERSONALUSE";
+    color: #0b8cce;
+    font-size: 2.18rem;
+    line-height: 1.5rem;
+}
+
+#delice-conseils-vie .subtitle {
+    font-size: 1.56rem;
+    color: #0b8cce;
+    font-family: "Dosis Bold";
+    line-height: 1.5rem;
+    text-transform: uppercase;
+}
+
+#delice-conseils-vie .description {
+    font-size: 0.81rem;
+    color: #0b8cce;
+    font-family: "Roboto Medium";
+    text-align: justify;
+}
+
+#delice-conseils-vie figure {
+    margin-top: 150px;
+}
+
+/****************** A chacun son lait *********************/
+/****************** A chacun son lait banner *********************/
+#a-chacun-son-lait-banner {
+    padding: 15.9vh 0;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#a-chacun-son-lait-banner .wpb_content_element {
+    margin-bottom: 10px !important;
+}
+
+#a-chacun-son-lait-banner .title {
+    position: relative;
+    font-family: "Dosis Bold";
+    color: #ffffff;
+    font-size: 2.18rem;
+    text-transform: uppercase;
+    line-height: 2rem;
+}
+
+#a-chacun-son-lait-banner .subtitle {
+    position: relative;
+    font-family: "Dosis Bold";
+    color: #ffffff;
+    font-size: 1.56rem;
+    text-transform: uppercase;
+    line-height: 1rem;
+}
+
+#a-chacun-son-lait-banner .extratitle {
+    position: relative;
+    font-family: "Roboto Medium";
+    color: #d0e804;
+    font-size: 1.25rem;
+    margin-bottom: 0 !important;
+}
+
+#a-chacun-son-lait-banner .subtitle::after {
+    content: "";
+    position: absolute;
+    left: 25%;
+    top: 55%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: url('../images/page-header-shape.png') top left no-repeat;
+    width: 20px;
+    height: 14px;
+}
+
+#a-chacun-son-lait-banner .description {
+    font-family: "Roboto Light";
+    color: #ffffff;
+    font-size: 0.87rem;
+}
+
+#a-chacun-son-lait-demi-ecreme .vc_column-inner {
+    padding-top: 0 !important;
+}
+
+#a-chacun-son-lait-demi-ecreme .lait-demi-ecreme {
+    max-width: 346px;
+    margin: 0 0 0 auto;
+    padding: 21vh 0;
+}
+
+#a-chacun-son-lait-demi-ecreme .lait-demi-ecreme h2 {
+    color: #ffffff;
+    font-family: "AveFedanPERSONALUSE";
+    font-size: 2.5rem;
+}
+
+#a-chacun-son-lait-demi-ecreme .lait-demi-ecreme p {
+    color: #ffffff;
+    font-family: "Roboto Light";
+    font-size: 0.875rem;
+}
+
+#a-chacun-son-lait-eniter .vc_column-inner {
+    padding-top: 0 !important;
+}
+
+#a-chacun-son-lait-eniter .lait-eniter {
+    max-width: 346px;
+    margin: 0 auto 0 0;
+    padding: 15vh 0;
+}
+
+#a-chacun-son-lait-eniter .lait-eniter h2 {
+    color: #ffffff;
+    font-family: "AveFedanPERSONALUSE";
+    font-size: 2.5rem;
+}
+
+#a-chacun-son-lait-eniter .lait-eniter p {
+    color: #ffffff;
+    font-family: "Roboto Light";
+    font-size: 0.875rem;
+}
+
+#a-chacun-son-lait-matiere-grasse .vc_column-inner {
+    padding-top: 0 !important;
+}
+
+#a-chacun-son-lait-matiere-grasse .matiere-grasse {
+    max-width: 346px;
+    margin: 0 0 0 auto;
+    padding: 19vh 0;
+}
+
+#a-chacun-son-lait-matiere-grasse .matiere-grasse h2 {
+    color: #ffffff;
+    font-family: "AveFedanPERSONALUSE";
+    font-size: 2.5rem;
+}
+
+#a-chacun-son-lait-matiere-grasse .matiere-grasse p {
+    color: #ffffff;
+    font-family: "Roboto Light";
+    font-size: 0.875rem;
+}
+
+#a-chacun-son-lait-delisso .vc_column-inner {
+    padding-top: 0 !important;
+}
+
+#a-chacun-son-lait-delisso .delisso {
+    padding-top: 8vh;
+}
+
+#a-chacun-son-lait-delisso figure {
+    padding-top: 3vh;
+}
+
+#a-chacun-son-lait-delisso .delisso h2 {
+    color: #ffffff;
+    font-family: "AveFedanPERSONALUSE";
+    font-size: 2.5rem;
+}
+
+#a-chacun-son-lait-delisso .delisso h3 {
+    font-family: "Dosis Medium";
+    font-size: 1.25rem;
+    color: #ffffff;
+    margin-bottom: 2vh;
+}
+
+#a-chacun-son-lait-delisso .delisso p {
+    color: #ffffff;
+    font-family: "Roboto Light";
+    font-size: 0.875rem;
+}
+
+#a-chacun-son-lait-lben-raieb .vc_column-inner {
+    padding-top: 0 !important;
+}
+
+#a-chacun-son-lait-lben-raieb .lben-raieb {
+    max-width: 346px;
+    margin: 0 0 0 auto;
+    padding: 18vh 0;
+}
+
+#a-chacun-son-lait-lben-raieb .lben-raieb h2 {
+    color: #60852f;
+    font-family: "AveFedanPERSONALUSE";
+    font-size: 2.5rem;
+}
+
+#a-chacun-son-lait-lben-raieb .lben-raieb p {
+    color: #626262;
+    font-family: "Roboto Light";
+    font-size: 0.875rem;
+}
+
+/****************** delice a votre ecoute *********************/
+/****************** delice a votre ecoute banner *********************/
+#delice-a-votre-ecoute-banner {
+    padding: 8.95vh 0;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#delice-a-votre-ecoute-banner .wpb_content_element {
+    margin-bottom: 10px !important;
+}
+
+#delice-a-votre-ecoute-banner .title {
+    position: relative;
+    font-family: "Dosis Bold";
+    color: #006ec8;
+    font-size: 1.87rem;
+    text-transform: uppercase;
+}
+
+#delice-a-votre-ecoute-banner .description {
+    font-family: "Roboto Medium";
+    color: #86a6bb;
+    font-size: 0.87rem;
+}
+
+#delice-a-votre-ecoute-banner .description p {
+    margin-bottom: 15px !important;
+}
+
+#delice-a-votre-ecoute {
+    margin-top: -55px;
+    margin-bottom: 35px;
+}
+
+#delice-a-votre-ecoute .col-contact-form {
+    min-height: 670px;
+}
+
+#delice-a-votre-ecoute .col-contact,
+#delice-a-votre-ecoute .col-contact-form {
+    -webkit-box-shadow: 0px 12px 73px 0px rgba(132, 132, 132, 0.4);
+    -moz-box-shadow: 0px 12px 73px 0px rgba(132, 132, 132, 0.4);
+    box-shadow: 0px 12px 73px 0px rgba(132, 132, 132, 0.4);
+}
+
+#delice-a-votre-ecoute .vc_column-inner {
+    padding-top: 0 !important;
+}
+
+#delice-a-votre-ecoute .col-contact .vc_column-inner {
+    padding: 0 !important;
+}
+
+#delice-a-votre-ecoute .delice-contact {
+    padding: 100px 60px;
+    background: #006ec8;
+}
+
+#delice-a-votre-ecoute .col-contact {
+    background: #042b55;
+}
+
+#delice-a-votre-ecoute .wpb_content_element {
+    margin-bottom: 0 !important;
+}
+
+#delice-a-votre-ecoute .col-contact .delice-contact .title {
+    font-family: "Dosis Bold";
+    color: #ffffff;
+    font-size: 1.37rem;
+    text-transform: uppercase;
+}
+
+#delice-a-votre-ecoute .col-contact .delice-contact .delice-adress {
+    color: #b6e0f7;
+    font-family: "Roboto Light";
+    font-size: 0.75rem;
+}
+
+#delice-a-votre-ecoute .col-contact .delice-call-center {
+    position: relative;
+    min-height: 474px;
+}
+
+#delice-a-votre-ecoute .col-contact .delice-call-center img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+#delice-a-votre-ecoute .col-contact-form {
+    padding: 65px 35px;
+    background: #ffffff;
+}
+
+#delice-a-votre-ecoute .col-contact-form .title {
+    font-family: "Dosis Bold";
+    color: #006ec8;
+    font-size: 1rem;
+    line-height: 1rem;
+    position: relative;
+    margin-bottom: 55px;
+}
+
+#delice-a-votre-ecoute .col-contact-form .title::after {
+    content: "";
+    width: 30px;
+    height: 3px;
+    background: #96b503;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+}
+
+#delice-a-votre-ecoute .col-contact-form .label-text {
+    color: #858585;
+    font-family: "Roboto Medium";
+    font-size: 0.75rem;
+}
+
+#delice-a-votre-ecoute .col-contact-form .input-text {
+    margin-bottom: 35px;
+}
+
+#delice-a-votre-ecoute .col-contact-form .input-text input {
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 2rem;
+    padding: 0;
+    color: #1164a8;
+    font-family: "Roboto Light";
+    font-size: 1.43rem;
+}
+
+#delice-a-votre-ecoute .col-contact-form .input-text input[type="file"] {
+    font-size: 1rem;
+}
+
+#delice-a-votre-ecoute .col-contact-form .input-text select {
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 2rem;
+    padding: 0;
+    color: #1164a8;
+    font-family: "Roboto Light";
+    font-size: 1.43rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(../images/select-arrow.png) right center no-repeat #fff;
+}
+
+#delice-a-votre-ecoute .col-contact-form .input-text textarea {
+    line-height: normal;
+    overflow-y: hidden;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    box-shadow: none;
+    min-height: 2rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: .375rem 0;
+    color: #1164a8;
+    font-family: "Roboto Light";
+    font-size: 1.43rem;
+}
+
+#delice-a-votre-ecoute .col-contact-form .input-btn {
+    margin-top: 35px;
+}
+
+#delice-a-votre-ecoute .col-contact-form .input-btn input {
+    background-color: #96b503;
+    border-color: #96b503;
+    font-size: 0.69rem;
+    font-family: "Roboto Medium";
+    color: #ffffff;
+    border-radius: 50px;
+    padding: .5rem 1.5rem;
+    height: auto;
+}
+
+/****************** contactez nous *********************/
+/****************** contactez nous banner *********************/
+#contactez-nous-banner {
+    padding: 15.3vh 0;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#contactez-nous-banner .vc_column-inner {
+    padding-top: 0 !important;
+}
+
+#contactez-nous-banner .wpb_content_element {
+    margin-bottom: 10px !important;
+}
+
+#contactez-nous-banner .title {
+    position: relative;
+    font-family: "Dosis Bold";
+    color: #ffffff;
+    font-size: 1.875rem;
+    text-transform: uppercase;
+}
+
+#contactez-nous-banner .description {
+    font-family: "Roboto Medium";
+    color: #ffffff;
+    font-size: 0.87rem;
+}
+
+#contactez-nous-banner .description p {
+    margin-bottom: 15px !important;
+}
+
+#contactez-nous .vc_column-inner {
+    padding-top: 0 !important;
+}
+
+#contactez-nous .title {
+    font-size: 1.878rem !important;
+    color: #ffffff !important;
+    font-family: "Dosis Bold" !important;
+    text-transform: uppercase;
+    position: relative;
+}
+
+#contactez-nous .title::after {
+    content: "";
+    width: 88px;
+    height: 2px;
+    background: #ff9900;
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+}
+
+#contactez-nous .place {
+    font-family: "Roboto Light" !important;
+    color: #ffffff !important;
+    font-size: 1.62rem !important;
+}
+
+#contactez-nous .fax {
+    font-family: "Roboto Light" !important;
+    font-size: 1.5rem !important;
+    color: #ff9900 !important;
+}
+
+#contactez-nous .fax span {
+    font-family: "Dosis Bold" !important;
+}
+
+#contactez-nous .tel {
+    font-family: "Roboto Light" !important;
+    font-size: 1.5rem !important;
+    color: #ff9900 !important;
+}
+
+#contactez-nous .tel span {
+    font-family: "Dosis Bold" !important;
+}
+
+#contactez-nous .adress {
+    color: #ffffff !important;
+    font-size: 1.251rem !important;
+    font-family: "Roboto Medium" !important;
+}
+
+#contactez-nous .tp-bullet.selected {
+    background: #bacd21 !important;
+}
+
+/***************** produit jus boissons ***************************/
+#produit-jus-boissons {
+    position: relative;
+    z-index: 999;
+}
+#produit-jus-boissons .vc_column-inner {
+    padding-top: 0 !important;
+}
+
+#produit-jus-boissons .tp-leftarrow {
+    background: url('../images/product-slide-right-arrow.png') left top no-repeat !important;
+    width: 46px !important;
+    height: 45px !important;
+}
+
+#produit-jus-boissons .tp-leftarrow::before {
+    content: "\e82c";
+    margin-left: -100000px !important;
+    opacity: 0;
+}
+
+#produit-jus-boissons .tp-rightarrow {
+    background: url('../images/product-slide-left-arrow.png') left top no-repeat !important;
+    width: 46px !important;
+    height: 45px !important;
+}
+
+#produit-jus-boissons .tp-rightarrow::before {
+    content: "\e82c";
+    margin-right: -100000px !important;
+}
+
+#delice-produit-jus-details .items__inner, #delice-produit-jus-details .items__layer {
+    width: 100%;
+    height: 100%;
+}
+
+#delice-produit-jus-details .left-layer img {
+    position: absolute;
+    top: -461px;
+    left: -220px;
+    z-index: 0;
+}
+
+#delice-produit-jus-details .right-layer img {
+    position: absolute;
+    top: -731px;
+    right: -146px;
+    z-index: 0;
+}
+
+#delice-produit-jus-details .col-capture-produit {
+    position: relative;
+}
+
+#delice-produit-jus-details .col-capture-produit .vc_column-inner {
+    padding: 0 !important;
+}
+
+#delice-produit-jus-details .col-capture-produit .wpb_content_element {
+    margin-bottom: 0 !important;
+}
+
+#delice-produit-jus-details .col-capture-produit .download-produit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#delice-produit-jus-details .col-capture-produit .download-produit .content-download-produit {
+    position: relative;
+    display: flex;
+    display: -ms-flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+#delice-produit-jus-details .col-capture-produit .download-produit .content-download-produit .label-download {
+    color: #fafcfd;
+    font-family: "Dosis Bold";
+    font-size: 0.83rem;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+#delice-produit-jus-details .col-capture-produit .download-produit .content-download-produit .icon-download {
+    cursor: pointer;
+}
+
+#delice-produit-jus-details .col-capture-produit .download-produit .content-download-produit .icon-download img {
+    -webkit-box-shadow: 0px 20px 20px 0px rgba(95, 95, 95, 0.2);
+    -moz-box-shadow: 0px 20px 20px 0px rgba(95, 95, 95, 0.2);
+    box-shadow: 0px 20px 20px 0px rgba(95, 95, 95, 0.2);
+}
+
+#delice-produit-jus-details .items__inner, #delice-produit-jus-details .items__layer {
+    width: 100%;
+    height: 100%;
+}
+
+#delice-produit-jus-details .col-capture-produit .layer-petit-delice img {
+    position: absolute;
+    bottom: 70px;
+    left: -100px;
+    z-index: 999;
+}
+
+#delice-produit-jus-details .col-capture-produit .layer-delio img {
+    position: absolute;
+    bottom: 70px;
+    left: -100px;
+    z-index: 999;
+}
+
+#delice-produit-jus-details .col-capture-produit .layer-delio-menthe img {
+    position: absolute;
+    top: 70px;
+    right: 63px;
+    z-index: 999;
+}
+
+#delice-produit-jus-details .col-description-produit {
+    padding: 40px 0 0 50px;
+}
+
+#delice-produit-jus-details .col-description-produit .wpb_content_element {
+    margin-bottom: 20px !important;
+}
+
+#delice-produit-jus-details .col-description-produit .subtitle {
+    color: #8fae0a;
+    font-size: 1.31rem;
+    font-family: "Dosis SemiBold";
+    text-transform: uppercase;
+}
+
+#delice-produit-jus-details .col-description-produit .title {
+    color: #b50063;
+    font-size: 1.68rem;
+    font-family: "Dosis SemiBold";
+    text-transform: uppercase;
+}
+
+#delice-produit-jus-details .col-description-produit .extratitle {
+    color: #ff8421;
+    font-size: 1.125rem;
+    font-family: "Roboto Medium";
+}
+
+#delice-produit-jus-details .col-description-produit .description {
+    color: #818181;
+    font-size: 0.875rem;
+    font-family: "Roboto Medium";
+}
+
+#delice-produit-jus-details .col-produit-ingredient {
+    background: #ffa50a;
+    padding: 50px 50px 0 50px;
+}
+
+#delice-produit-jus-details .col-produit-ingredient .title {
+    font-family: "Dosis SemiBold";
+    color: #fafcfd;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    line-height: 1rem;
+    margin-bottom: 5px;
+}
+
+#delice-produit-jus-details .col-produit-ingredient .subtitle {
+    font-family: "Dosis SemiBold";
+    color: #fafcfd;
+    font-size: 0.93rem;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+#delice-produit-jus-details .col-produit-ingredient h4 {
+    color: #ff7a0b;
+    margin-bottom: 0;
+    background: #e9faff;
+    padding: 20px 15px;
+    font-size: 1.06rem;
+    font-family: "Dosis SemiBold";
+    text-align: center;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+#delice-produit-jus-details .col-produit-ingredient table {
+    /*display: block;*/
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+#delice-produit-jus-details .col-produit-ingredient table thead,
+#delice-produit-jus-details .col-produit-ingredient table tbody {
+    width: 100%;
+}
+
+#delice-produit-jus-details .col-produit-ingredient table thead {
+    background: #ff930b;
+}
+
+#delice-produit-jus-details .col-produit-ingredient table thead tr {
+    color: #fafcfd;
+    font-size: 1.06rem;
+    font-family: "Dosis SemiBold";
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#delice-produit-jus-details .col-produit-ingredient table tbody tr {
+    font-family: "Dosis Medium";
+    font-size: 0.875rem;
+    color: #fafcfd;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#delice-produit-jus-details .col-produit-ingredient table tbody tr.bg-yellow {
+    background: #ffb50a;
+}
+
+#delice-produit-jus-details .col-produit-ingredient,
+#delice-produit-jus-details .col-produit-details {
+    min-height: 530px;
+}
+
+#delice-produit-jus-details .col-produit-details {
+    background: #ff7a0b;
+    padding: 50px 50px 0 50px;
+}
+
+#delice-produit-jus-details .col-produit-details .title {
+    font-size: 1.18rem;
+    color: #ffa50a;
+    font-family: "Dosis SemiBold";
+    text-transform: uppercase;
+}
+
+#delice-produit-jus-details .col-produit-details .description {
+    font-size: 0.81rem;
+    color: #ffffff;
+    font-family: "Roboto Medium";
+    margin: 20px 0;
+}
+
+/***************** produit jus boissons ***************************/
+#produit-laitiers .vc_column-inner {
+    padding-top: 0 !important;
+}
+
+#produit-laitiers .tp-leftarrow {
+    background: url('../images/product-slide-right-arrow.png') left top no-repeat !important;
+    width: 46px !important;
+    height: 45px !important;
+}
+
+#produit-laitiers .tp-leftarrow::before {
+    content: "\e82c";
+    margin-left: -100000px !important;
+    opacity: 0;
+}
+
+#produit-laitiers .tp-rightarrow {
+    background: url('../images/product-slide-left-arrow.png') left top no-repeat !important;
+    width: 46px !important;
+    height: 45px !important;
+}
+
+#produit-laitiers .tp-rightarrow::before {
+    content: "\e82c";
+    margin-right: -100000px !important;
+}
+
+#delice-produit-laitiers-details .col-capture-produit {
+    position: relative;
+}
+
+#delice-produit-laitiers-details .col-capture-produit .vc_column-inner {
+    padding: 0 !important;
+}
+
+#delice-produit-laitiers-details .col-capture-produit .wpb_content_element {
+    margin-bottom: 0 !important;
+}
+
+#delice-produit-laitiers-details .col-capture-produit .download-produit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#delice-produit-laitiers-details .items__inner, #delice-produit-laitiers-details .items__layer {
+    width: 100%;
+    height: 100%;
+}
+
+#delice-produit-laitiers-details .col-capture-produit .layer-petit-delice img {
+    position: absolute;
+    bottom: 70px;
+    left: -100px;
+    z-index: 999;
+}
+
+#delice-produit-laitiers-details .col-capture-produit .download-produit .content-download-produit {
+    position: relative;
+    display: flex;
+    display: -ms-flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+#delice-produit-laitiers-details .col-capture-produit .download-produit .content-download-produit .label-download {
+    color: #fafcfd;
+    font-family: "Dosis Bold";
+    font-size: 0.83rem;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+#delice-produit-laitiers-details .col-capture-produit .download-produit .content-download-produit .icon-download {
+    cursor: pointer;
+}
+
+#delice-produit-laitiers-details .col-capture-produit .download-produit .content-download-produit .icon-download img {
+    -webkit-box-shadow: 0px 20px 20px 0px rgba(95, 95, 95, 0.2);
+    -moz-box-shadow: 0px 20px 20px 0px rgba(95, 95, 95, 0.2);
+    box-shadow: 0px 20px 20px 0px rgba(95, 95, 95, 0.2);
+}
+
+#delice-produit-laitiers-details .col-description-produit {
+    padding: 40px 0 0 50px;
+}
+
+#delice-produit-laitiers-details .col-description-produit .wpb_content_element {
+    margin-bottom: 20px !important;
+}
+
+#delice-produit-laitiers-details .col-description-produit .subtitle {
+    color: #0a83c1;
+    font-size: 1.31rem;
+    font-family: "Dosis SemiBold";
+    text-transform: uppercase;
+}
+
+#delice-produit-laitiers-details .col-description-produit .title {
+    color: #b5579a;
+    font-size: 1.68rem;
+    font-family: "Dosis SemiBold";
+    text-transform: uppercase;
+}
+
+#delice-produit-laitiers-details .col-description-produit .extratitle {
+    color: #0a83c1;
+    font-size: 1.125rem;
+    font-family: "Roboto Medium";
+}
+
+#delice-produit-laitiers-details .col-description-produit .description {
+    color: #1aa2e8;
+    font-size: 0.875rem;
+    font-family: "Roboto Medium";
+}
+
+#delice-produit-laitiers-details .col-produit-ingredient {
+    background: #0099e8;
+    padding: 50px 50px 0 50px;
+}
+
+#delice-produit-laitiers-details .col-produit-ingredient .title {
+    font-family: "Dosis SemiBold";
+    color: #fafcfd;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    line-height: 1rem;
+    margin-bottom: 5px;
+}
+
+#delice-produit-laitiers-details .col-produit-ingredient .subtitle {
+    font-family: "Dosis SemiBold";
+    color: #fafcfd;
+    font-size: 0.93rem;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+#delice-produit-laitiers-details .col-produit-ingredient h4 {
+    color: #0173ae;
+    margin-bottom: 0;
+    background: #e9faff;
+    padding: 20px 15px;
+    font-size: 1.06rem;
+    font-family: "Dosis SemiBold";
+    text-align: center;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+#delice-produit-laitiers-details .col-produit-ingredient table {
+    /*display: block;*/
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+#delice-produit-laitiers-details .col-produit-ingredient table thead,
+#delice-produit-laitiers-details .col-produit-ingredient table tbody {
+    width: 100%;
+}
+
+#delice-produit-laitiers-details .col-produit-ingredient table thead {
+    background: #0173ae;
+}
+
+#delice-produit-laitiers-details .col-produit-ingredient table thead tr {
+    color: #fafcfd;
+    font-size: 1.06rem;
+    font-family: "Dosis SemiBold";
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#delice-produit-laitiers-details .col-produit-ingredient table tbody tr {
+    font-family: "Dosis Medium";
+    font-size: 0.875rem;
+    color: #fafcfd;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#delice-produit-laitiers-details .col-produit-ingredient table tbody tr.bg-yellow {
+    background: #19a7f0;
+}
+
+#delice-produit-laitiers-details .col-produit-ingredient,
+#delice-produit-laitiers-details .col-produit-details {
+    min-height: 530px;
+}
+
+#delice-produit-laitiers-details .col-produit-details {
+    background: #006fa9;
+    padding: 50px 50px 0 50px;
+}
+
+#delice-produit-laitiers-details .col-produit-details .title {
+    font-size: 1.18rem;
+    color: #5fc9ff;
+    font-family: "Dosis SemiBold";
+    text-transform: uppercase;
+}
+
+#delice-produit-laitiers-details .col-produit-details .description {
+    font-size: 0.81rem;
+    color: #ffffff;
+    font-family: "Roboto Medium";
+    margin: 20px 0;
+}
+
+/***************** produit fromage ***************************/
+#produit-fromage .vc_column-inner {
+    padding-top: 0 !important;
+}
+
+#produit-fromage .tp-leftarrow {
+    background: url('../images/product-slide-right-arrow.png') left top no-repeat !important;
+    width: 46px !important;
+    height: 45px !important;
+}
+
+#produit-fromage .tp-leftarrow::before {
+    content: "\e82c";
+    margin-left: -100000px !important;
+    opacity: 0;
+}
+
+#produit-fromage .tp-rightarrow {
+    background: url('../images/product-slide-left-arrow.png') left top no-repeat !important;
+    width: 46px !important;
+    height: 45px !important;
+}
+
+#produit-fromage .tp-rightarrow::before {
+    content: "\e82c";
+    margin-right: -100000px !important;
+}
+
+#delice-produit-fromage-details .col-capture-produit {
+    position: relative;
+}
+
+#delice-produit-fromage-details .col-capture-produit .vc_column-inner {
+    padding: 0 !important;
+}
+
+#delice-produit-fromage-details .col-capture-produit .wpb_content_element {
+    margin-bottom: 0 !important;
+}
+
+#delice-produit-fromage-details .col-capture-produit .download-produit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#delice-produit-fromage-details .col-capture-produit .download-produit .content-download-produit {
+    position: relative;
+    display: flex;
+    display: -ms-flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+#delice-produit-fromage-details .col-capture-produit .download-produit .content-download-produit .label-download {
+    color: #fafcfd;
+    font-family: "Dosis Bold";
+    font-size: 0.83rem;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+#delice-produit-fromage-details .col-capture-produit .download-produit .content-download-produit .icon-download {
+    cursor: pointer;
+}
+
+#delice-produit-fromage-details .col-capture-produit .download-produit .content-download-produit .icon-download img {
+    -webkit-box-shadow: 0px 20px 20px 0px rgba(95, 95, 95, 0.2);
+    -moz-box-shadow: 0px 20px 20px 0px rgba(95, 95, 95, 0.2);
+    box-shadow: 0px 20px 20px 0px rgba(95, 95, 95, 0.2);
+}
+
+#delice-produit-fromage-details .col-description-produit {
+    padding: 40px 0 0 50px;
+}
+
+#delice-produit-fromage-details .col-description-produit .wpb_content_element {
+    margin-bottom: 20px !important;
+}
+
+#delice-produit-fromage-details .col-description-produit .subtitle {
+    color: #0a83c1;
+    font-size: 1.31rem;
+    font-family: "Dosis SemiBold";
+    text-transform: uppercase;
+}
+
+#delice-produit-fromage-details .col-description-produit .title {
+    color: #b5579a;
+    font-size: 1.68rem;
+    font-family: "Dosis SemiBold";
+    text-transform: uppercase;
+}
+
+#delice-produit-fromage-details .col-description-produit .extratitle {
+    color: #0a83c1;
+    font-size: 1.125rem;
+    font-family: "Roboto Medium";
+}
+
+#delice-produit-fromage-details .col-description-produit .description {
+    color: #1aa2e8;
+    font-size: 0.875rem;
+    font-family: "Roboto Medium";
+}
+
+#delice-produit-fromage-details .col-produit-ingredient {
+    background: #8db22a;
+    padding: 50px 50px 0 50px;
+}
+
+#delice-produit-fromage-details .col-produit-ingredient .title {
+    font-family: "Dosis SemiBold";
+    color: #fafcfd;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    line-height: 1rem;
+    margin-bottom: 5px;
+}
+
+#delice-produit-fromage-details .col-produit-ingredient .subtitle {
+    font-family: "Dosis SemiBold";
+    color: #fafcfd;
+    font-size: 0.93rem;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+#delice-produit-fromage-details .col-produit-ingredient h4 {
+    color: #6d9307;
+    margin-bottom: 0;
+    background: #e9faff;
+    padding: 20px 15px;
+    font-size: 1.06rem;
+    font-family: "Dosis SemiBold";
+    text-align: center;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+#delice-produit-fromage-details .col-produit-ingredient table {
+    /*display: block;*/
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+#delice-produit-fromage-details .col-produit-ingredient table thead,
+#delice-produit-fromage-details .col-produit-ingredient table tbody {
+    width: 100%;
+}
+
+#delice-produit-fromage-details .col-produit-ingredient table thead {
+    background: #6d9307;
+}
+
+#delice-produit-fromage-details .col-produit-ingredient table thead tr {
+    color: #fafcfd;
+    font-size: 1.06rem;
+    font-family: "Dosis SemiBold";
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#delice-produit-fromage-details .col-produit-ingredient table tbody tr {
+    font-family: "Dosis Medium";
+    font-size: 0.875rem;
+    color: #fafcfd;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#delice-produit-fromage-details .col-produit-ingredient table tbody tr.bg-yellow {
+    background: #92ba28;
+}
+
+#delice-produit-fromage-details .col-produit-ingredient,
+#delice-produit-fromage-details .col-produit-details {
+    min-height: 530px;
+}
+
+#delice-produit-fromage-details .col-produit-details {
+    background: #6d9307;
+    padding: 50px 50px 0 50px;
+}
+
+#delice-produit-fromage-details .col-produit-details .title {
+    font-size: 1.18rem;
+    color: #96cb08;
+    font-family: "Dosis SemiBold";
+    text-transform: uppercase;
+}
+
+#delice-produit-fromage-details .col-produit-details .description {
+    font-size: 0.81rem;
+    color: #ffffff;
+    font-family: "Roboto Medium";
+    margin: 20px 0;
+}
+
+
+/************ products ********************/
+#delice-produits {
+    background-position: top center !important;
+    background-size: 100% auto !important;
+    padding: 3vh 0;
+}
+
+#recent-posts .item-post {
+    background:rgba(255,255,255,.6);
+    -webkit-box-shadow: 0px 13px 46px 0px rgba(215, 215, 215, 0.43);
+    -moz-box-shadow: 0px 13px 46px 0px rgba(215, 215, 215, 0.43);
+    box-shadow: 0px 13px 46px 0px rgba(215, 215, 215, 0.43);
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .3rem;
+    border-radius: .3rem;
+    text-align: center;
+    padding: 17px 15px;
+    margin-bottom: 20px;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.produits-laitiers #recent-posts .item-post {
+    color: #0099e8
+}
+
+.boissons-jus #recent-posts .item-post {
+    color: #ff7a0b;
+}
+
+#recent-posts .item-post:hover {
+    background: #8fae0a;
+    color: #ffffff;
+}
+
+#recent-posts .item-post .item-post-etiquette {
+
+    font-family: "Dosis Medium";
+    font-size: 1.25rem;
+}
+
+#recent-posts .item-post .item-post-title p {
+    font-family: "Dosis Bold";
+    font-size: .9rem;
+    text-align: center;
+    text-transform: uppercase;
+    min-height: 60px;
+}
+
+#recent-posts .item-post .btn-product {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#recent-posts .item-post .btn-product button {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    padding: .5rem 1.5rem;
+    background: #ffffff;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.produits-laitiers #recent-posts .item-post .btn-product button {
+    border: 1px solid #0099e8;
+    color: #0099e8;
+}
+
+.boissons-jus #recent-posts .item-post .btn-product button {
+    border: 1px solid #ff7a0b;
+    color: #ff7a0b;
+}
+
+#recent-posts .item-post:hover .btn-product button {
+    border: 1px solid #8fae0a;
+    color: #8fae0a;
+}
+
+/************ modal video *****************/
+.modal-video {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-clip: padding-box;
+    outline: 0;
+}
+
+#delice-produits .title {
+    color: #0a83c1;
+    font-family: "Dosis Bold";
+    font-size: 2.18rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.tnp-widget input.tnp-submit {
+    background-color: #08415d !important;
+    background-image: none;
+    text-shadow: none;
+    color: #fff;
+    margin: 0;
+    cursor: pointer
+}
+
+.tnp-widget input[type="text"], .tnp-widget input[type="email"], .tnp-widget select {
+    width: 100%;
+    padding: 10px;
+    display: block;
+    border: 1px solid #fff !important;
+        border-top-color: rgb(255, 255, 255);
+        border-right-color: rgb(255, 255, 255);
+        border-bottom-color: rgb(255, 255, 255);
+        border-left-color: rgb(255, 255, 255);
+    border-color: #fff !important;
+    background-color: #f4f4f4;
+    background-image: none;
+    text-shadow: none;
+    color: #444;
+    font-size: 14px;
+    line-height: normal;
+    box-sizing: border-box;
+    height: auto;
+}
+
+.tnp-widget input[type="submit"] {
+    width: auto !important;
+    padding: 10px;
+    display: block;
+    border: 1px solid #fff !important;
+        border-top-color: rgb(255, 255, 255);
+        border-right-color: rgb(255, 255, 255);
+        border-bottom-color: rgb(255, 255, 255);
+        border-left-color: rgb(255, 255, 255);
+    border-color: #fff !important;
+    background-color: #f4f4f4;
+    background-image: none;
+    text-shadow: none;
+    color: #444;
+    font-size: 14px;
+    line-height: normal;
+    box-sizing: border-box;
+    height: auto;
+}
+
+.nav-rapport-finnacier {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-rapport-finnacier li.nav-btn-pdf {
+    display: inline-block;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.nav-rapport-finnacier li.nav-btn-pdf button {
+    -webkit-box-shadow: 0px 20px 20px 0px rgba(11, 140, 206, 0.09);
+    -moz-box-shadow: 0px 20px 20px 0px rgba(11, 140, 206, 0.09);
+    box-shadow: 0px 20px 20px 0px rgba(11, 140, 206, 0.09);
+    background: #0a83c1;
+    font-family: "Dosis Bold";
+    color: #f8fafb;
+    font-size: 1.19rem;
+    margin-top: 35px;
+}
+
+.nav-rapport-finnacier li.nav-btn-pdf button:hover,
+.nav-rapport-finnacier li.nav-btn-pdf button.active {
+    color: #0a83c1;
+    background: #f8fafb;
+}
+
+.nav-rapport-finnacier li.nav-btn-pdf button.active:hover {
+    color: #f8fafb;
+    background: #0a83c1;
+}
+
+.rapports-financiers-content {
+    display: none;
+}
+
+.rapports-financiers-content.active {
+    display: block;
+}
+
+header .desktop-primary-menu {
+    display: block;
+}
+
+header .mobile-primary-menu {
+    display: none;
+}
+
+#modalMobile {
+    top: 80px;
+}
+
+#modalMobile .modal-header {
+    padding: 0 15px;
+    border-bottom: none !important;
+}
+
+#modalMobile .modal-content {
+    position: relative;
+    background-color: #fbfbfb;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #fbfbfb;
+    border-radius: 0;
+    outline: 0;
+    -webkit-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);
+}
+
+.tnp-widget .tnp-field {
+    float: left;
+}
+
+.tnp-widget .tnp-field-email {
+    width: 65%;
+}
+
+.tnp-field-email label {
+    display: none !important;
+}
+
+.tnp-widget .tnp-field-button {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+
+#serachModal .modal-content {
+    background-color: #006ec8 !important;
+}
+
+.no-results {
+    margin: 35px 0 45px 0;
+}
+
+.no-results .page-title {
+    font-family: "Dosis SemiBold";
+    font-size: 1.32rem;
+    color: #949494;
+    text-transform: uppercase;
+    text-justify: inter-word;
+    margin-top: 15px;
+}
+
+.no-results p {
+    font-family: "Dosis Regular";
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1rem;
+    color: #000;
+}
+
+.no-results .search-form .screen-reader-text {
+    font-family: "Dosis Bold";
+    font-size: .93rem;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.no-results .search-form label {
+    width: 35%;
+}
+
+.no-results .search-form input.search-field {
+    height: 56px;
+    font-family: "Dosis Light";
+    border: 1px solid #a1a1a1;
+    border-radius: 0;
+    padding: 1.6rem .75rem;
+    font-size: 1rem;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #6e6e6e;
+    background-image: none;
+    border-radius: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.no-results .search-form input.search-submit {
+    height: 56px;
+    background: #0a83c1;
+    border: 2px solid #0a83c1;
+    font-family: "Dosis Bold";
+    font-size: 1.2rem;
+    color: #ffffff;
+    border-radius: 0;
+    padding: 0 3rem;
+    outline: 0;
+    margin-left: 1rem;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+}
+
+.search-results .page-title {
+    margin-top: 53px;
+    font-family: "Dosis Bold";
+    color: #006ec8;
+    text-align: left;
+    font-size: 3rem;
+}
+
+.search-results .page-description {
+    font-size: 2.35rem;
+    line-height: 3.35rem;
+    font-family: "Dosis Regular";
+    text-transform: uppercase;
+    color: #60bdea;
+    margin-bottom: 25px;
+}
+
+.search-results .entry-title a {
+    color: #08415d;
+    font-size: "Dosis Regular";
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.search-results .navigation.pagination h2 {
+    display: none;
+}
+
+.search-results .pagination {
+    margin: 15px 0;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
+    align-content: center;
+    justify-content: center;
+}
+
+.home .tp-bullet-imageoverlay,
+.home .tp-bullet-image,
+.home .tp-bullet-title {
+    display: none !important;
+}

@@ -1,0 +1,1803 @@
+@media(min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .custom-logo-link img {
+        width: 100%;
+        height: auto;
+    }
+
+    .deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu li a {
+        font-size: .9rem;
+    }
+
+    .deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu li ul.sub-menu li a, .deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu li ul.sub-menu li:last-child a {
+        font-size: 0.8rem;
+        padding: 10px 15px;
+    }
+
+    .deliceholding-header .delice-holding-main-menu ul#menu-top-menu li a {
+        font-size: .9rem;
+    }
+
+    #delice_numbers #numbers .value {
+        font-size: 2.7rem;
+    }
+
+    #notre-mission-banner .title {
+        font-size: 1.75rem;
+    }
+
+    .col-strategie {
+        padding-top: 60px;
+        width: 22% !important;
+        margin-top: 65px;
+        margin-right: 37px;
+    }
+
+    #engagement-recherche-et-innovation-banner .title {
+        font-size: 1.75rem;
+    }
+
+    #origine-de-notre-lait .title {
+        font-size: 1.75rem;
+    }
+
+    #amont-lait-banner .title {
+        font-size: 1.75rem;
+    }
+
+    #a-chacun-son-lait-banner .title {
+        font-size: 1.75rem;
+    }
+
+    #a-chacun-son-lait-banner .subtitle {
+        font-size: 1.26rem;
+    }
+
+    #conseil-administration-banner .title {
+        font-size: 1.75rem;
+    }
+
+    #societes-du-groupe-banner .title {
+        font-size: 1.75rem;    
+    }
+
+    #repas-diversifier {
+        padding: 0vh 0;
+    }
+
+    #importance-sport {
+        padding: 0vh 0;
+    }
+
+    #consommation-lait {
+        padding: 1vh 0;
+    }
+
+    #delice-et-vous-banner .title {
+        font-size: 1.75rem;
+    }
+
+    #partenariats-strategiques-banner .title {
+        font-size: 1.75rem;
+    }
+
+    #rapports-financiers-banner .title {
+        font-size: 1.75rem;
+    }
+
+    #chiffres-cles-banner .title {
+        font-size: 1.75rem;
+    }
+
+    #delice-et-vous-banner .subtitle {
+        font-size: 1.26rem;
+    }
+
+    #delice-et-vous-banner {
+        padding: 8vh 0;
+    }
+
+    #role-commistes-gestion .description ul li {
+        font-size: 0.7rem !important;
+    }
+
+    #societes-du-groupe .description div {
+        font-size: 0.7rem !important;
+    }
+
+    #partenariat #danone, #partenariat #Bongrainsa {
+        width: 44%;
+        padding: 2rem .9rem;    
+        min-height: 422px;
+    }
+}
+
+@media (max-width: 991px) {
+    header .dektop-primary-menu {
+        display:none;
+    }
+
+    header .mobile-primary-menu {
+        display: block;
+    }
+
+    header .logo-deliceholding {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    header .top-main {
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+
+    header .top-header .top-menu {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    header .top-num-vert {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+
+    header .icon-mobile-menu {
+        cursor: pointer;
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+        right: 0;
+        text-align: right;
+    }
+
+    header .icon-mobile-menu img {
+        margin: 0 auto;
+    }
+
+    header #primary-menu {
+        padding-left: 20px;
+    }
+
+    header .navigation-top .menu-bottom-menu-container ul, header .navigation-top .menu-bottom-menu-en-container ul {
+        list-style-type: none;
+    }
+
+    header .navigation-top .menu-bottom-menu-container ul li ul, header .navigation-top .menu-bottom-menu-en-container ul li ul{
+        padding-left: 40px;
+    }
+
+    header .navigation-top .menu-bottom-menu-container ul li a {
+        font-family: "Dosis SemiBold";
+        font-size: 1rem;
+        color: #60bded;
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+    }
+
+    header .navigation-top .menu-bottom-menu-container ul a:hover {
+        color: #006ec8;
+    }
+
+    #_slider .title_first-slide div {
+        font-size: 1rem !important;
+    }
+
+    #_slider .first_text_first_slide {
+        font-size: 2rem !important;
+    }
+
+    .deliceholding-header {
+        background: #006ec8;
+        padding: 5px 0 15px 0;
+    }
+
+    .custom-logo-link img {
+        width: 100%;
+        height: auto;
+    }
+
+    .deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu li a {
+        font-size: .9rem;
+    }
+
+    .deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu li ul.sub-menu li a, .deliceholding-header .delice-holding-main-menu ul#menu-bottom-menu li ul.sub-menu li:last-child a {
+        font-size: 0.8rem;
+        padding: 10px 15px;
+    }
+
+    .deliceholding-header .delice-holding-main-menu ul#menu-top-menu li a {
+        font-size: .9rem;
+    }
+
+    #notre-mission-banner .title {
+        font-size: 1.25rem;
+    }
+
+    #delice-strategie {
+        padding: 0 0;
+    }
+
+    .col-strategie {
+        padding-top: 60px;
+        width: 29% !important;
+        margin-top: 67px;
+        margin-right: 31px;
+    }
+
+    #delice-valeurs .title {
+        font-size: 4.95rem;
+    }
+
+    #engagement-recherche-et-innovation-banner .title {
+        font-size: 1.25rem;
+    }
+
+    #origine-de-notre-lait .title {
+        font-size: 1.25rem;
+    }
+
+    #amont-lait-banner .title {
+        font-size: 1.25rem;
+    }
+
+    #a-chacun-son-lait-banner .title {
+        font-size: 1.25rem;
+    }
+
+    #a-chacun-son-lait-banner .subtitle {
+        font-size: 1.16rem;
+    }
+
+    #conseil-administration-banner .title {
+        font-size: 1.25rem;
+    }
+
+    #societes-du-groupe-banner .title {
+        font-size: 1.25rem;
+    }
+
+    #delice-et-vous-banner .title {
+        font-size: 1.25rem;
+    }
+
+    #partenariats-strategiques-banner .title {
+        font-size: 1.25rem;
+    }
+
+    #rapports-financiers-banner .title {
+        font-size: 1.25rem;
+    }
+
+    #chiffres-cles-banner .title {
+        font-size: 1.25rem;
+    }
+
+    #delice-et-vous-banner .subtitle {
+        font-size: 1.16rem;
+    }
+
+    #delice-et-vous-banner {
+        padding: 8vh 0;
+    }
+
+    #role-commistes-gestion .description ul li {
+        font-size: 0.7rem !important;
+    }
+
+    #societes-du-groupe .description div {
+        font-size: 0.7rem !important;
+    }
+
+    .block-chiffre .chiffre, .block-chiffre .percent, .block-chiffre .number {
+        font-size: 1.5rem;
+    }
+
+    #delice_numbers #numbers .value {
+        font-size: 2.1rem;
+    }
+
+    #delice_numbers #numbers .title {
+        font-family: "Dosis Medium";
+        font-size: 1rem;
+    }
+
+    #delice_numbers #numbers #dernier.bottom .value::after {
+        width: 39px;
+        height: 24px;
+        left: -32%;
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+    }
+
+    #delice__chiffres .content_chiffres .title {
+        font-size: 1rem;
+    }
+
+    #delice__chiffres .content_chiffres {
+        line-height: 1rem;
+        font-size: .8rem;
+    }
+
+    #delice_videos .heading .title {
+        font-size: 1.15rem;
+    }
+
+    #delice_videos .heading .subtitle {
+        font-size: 1.15rem;
+    }
+
+    #notre-engagement-sante .title {
+        font-size: 1.5rem;
+    }
+
+    #engagement-sate-chartes .title {
+        font-size: 1.5rem;
+    }
+
+    #notre-engagement-sante {
+        padding: 2vh 0;
+    }
+
+    #engagement-recherche-et-innovation-banner {
+        padding: 5vh 0;
+    }
+
+    #notre-mission-banner {
+        padding: 7vh 0;
+    }
+
+    #engagement-sate-chartes .title {
+        margin-top: 0;
+    }
+
+    #deliceandyou {
+        padding: 2vh 0;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: cover !important;
+    }
+
+    #delice_videos .heading {
+        position: relative;
+        margin-top: 0rem;
+    }
+
+    #delice_videos .description {
+        font-family: "Roboto LightItalic";
+        color: #21479c;
+        max-width: 400px;
+        font-size: 0.75rem;
+        margin-bottom: 20px;
+        padding-right: 30px;
+    }
+
+    #origine-de-notre-lait {
+        padding: 7vh 0;
+        background-repeat: no-repeat !important;
+        background-position: bottom center !important;
+        background-size: cover !important;
+    }
+
+    #first-section .vc_column-inner,
+    #second-section .vc_column-inner,
+    #third-section .vc_column-inner {
+        padding-top: 0 !important;
+    }
+
+    #first-section {
+        padding: 5vh 0;
+    }
+
+    #first-section .value {
+        font-size: 4.65rem;
+        line-height: 5rem;
+    }
+
+    #first-section .title {
+        font-size: 1.34rem;
+    }
+
+    #first-section .subtitle {
+        font-size: 1.23rem;
+    }
+
+    #second-section {
+        padding: 6vh 0;
+    }
+
+    #second-section .value {
+        font-size: 5.65rem;
+        line-height: 6rem;
+    }
+
+    #second-section .title {
+        font-size: 1.34rem;
+    }
+
+    #second-section .subtitle {
+        font-size: 1.23rem;
+    }
+
+    #third-section {
+        padding: 5vh 0;
+    }
+
+    #third-section .value {
+        font-size: 5.65rem;
+        line-height: 6rem;
+    }
+
+    #third-section .title {
+        font-size: 1.34rem;
+    }
+
+    #third-section .subtitle {
+        font-size: 1.23rem;
+    }
+
+    #amont-lait-banner {
+        padding: 6vh 0;
+    }
+
+    #pratiques-hygiene .title {
+        font-size: 1.5rem;
+    }
+
+    #pratiques-hygiene {
+        margin-top: 35px;
+        padding: 6vh 0;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: cover !important;
+    }
+
+    #capacite-stockage .title {
+        font-size: 1.5rem;
+        margin-top: 3rem;
+        line-height: 1.5rem;
+    }
+
+    #capacite-stockage .subtitle {
+        font-size: 1.31rem;
+        line-height: 1.4rem;
+    }
+
+    #camion-citerne figure {
+        position: relative;
+        bottom: 0;
+    }
+
+    #camion-citerne .title {
+        font-size: 1.3rem;
+        margin-top: 8rem;
+        line-height: 1.4rem;
+    }
+
+    #camion-citerne .subtitle {
+        font-size: 1.35rem;
+        line-height: 1.4rem;
+    }
+
+    #camion-citerne .wpb_content_element {
+        margin-bottom: 0 !important;
+    }
+
+    #capacite-stockage .description {
+        font-size: 0.75rem;
+        margin-top: 2rem;
+    }
+
+    #portail-fournisseur-lait .title {
+        font-size: 1.55rem;
+    }
+
+    #delice-lait-video .title {
+        font-size: 1.5rem;
+        line-height: 1.6rem;
+        margin-top: 6rem;
+    }
+
+    #delice-lait-video .subtitle {
+        font-size: 1.7rem;
+    }
+
+    #delice-lait-video .amont-lait-cover-video {
+        width: 100%;
+        min-height: 250px;
+    }
+
+    .item-posts {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    #a-chacun-son-lait-banner {
+        padding: 6vh 0;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: cover !important;
+    }
+
+    #a-chacun-son-lait-banner .subtitle::after {
+        left: 32%;
+    }
+
+    #a-chacun-son-lait-demi-ecreme .lait-demi-ecreme {
+        max-width: 346px;
+        margin: 0 0 0 auto;
+        padding: 6vh 0;
+    }
+
+    #a-chacun-son-lait-demi-ecreme .lait-demi-ecreme h2 {
+        font-size: 2rem;
+    }
+
+    #a-chacun-son-lait-eniter .lait-eniter {
+        max-width: 346px;
+        margin: 0 0 0 auto;
+        padding: 6vh 0;
+    }
+
+    #a-chacun-son-lait-eniter .lait-eniter h2 {
+        font-size: 2rem;
+    }
+
+    #a-chacun-son-lait-matiere-grasse .matiere-grasse {
+        max-width: 346px;
+        margin: 0 0 0 auto;
+        padding: 7vh 0;
+    }
+
+    #a-chacun-son-lait-matiere-grasse .matiere-grasse h2 {
+        font-size: 2rem;
+    }
+
+    #a-chacun-son-lait-delisso .delisso {
+        padding-top: 3vh;
+    }
+
+    #a-chacun-son-lait-delisso .delisso h2 {
+        font-size: 2rem;
+    }
+
+    #a-chacun-son-lait-delisso .delisso h3 {
+        font-size: 1rem;
+        margin-bottom: 2vh;
+    }
+
+    #a-chacun-son-lait-lben-raieb {
+        background-position: right center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+
+    #a-chacun-son-lait-lben-raieb .lben-raieb {
+        max-width: 346px;
+        margin: 0 0 0 auto;
+        padding: 5vh 0;
+    }
+
+    #a-chacun-son-lait-lben-raieb .lben-raieb h2 {
+        font-size: 2rem;
+    }
+
+    #delice-et-vous-banner {
+        padding: 6vh 0;
+    }
+
+    #delice-et-vous-banner .vc_column-inner {
+        padding-top: 0 !important;
+    }
+
+    #delice-et-vous-banner .subtitle::after {
+        left: 30%;
+    }
+
+    #delice-composants .content-delice-milk {
+        position: relative;
+        text-align: center;
+        width: 690px;
+        margin: 0 auto;
+    }
+
+    #delice-lait-fromage .description {
+        margin-top: 17px;
+    }
+
+    #repas-diversifier {
+        padding: 1vh 0;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: cover !important;
+    }
+
+    #importance-sport {
+        padding: 8vh 0;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: cover !important;
+    }
+
+    #importance-sport {
+        padding: 0 0;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: cover !important;
+    }
+
+    #consommation-lait {
+        padding: 0 0;
+        background-repeat: no-repeat !important;
+        background-position: right !important;
+        background-size: contain !important;
+    }
+
+    #conseil-administration-banner {
+        padding: 3vh 0;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: cover !important;
+    }
+
+    #societes-du-groupe-banner {
+        padding: 6.75vh 0;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: cover !important;
+    }
+
+    #chiffres-cles-banner {
+        padding: 20.1vh 0;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: cover !important;
+    }
+
+    #chiffres-cles-banner .title::after {
+        left: 47%;
+        top: 50%;
+    }
+
+    #partenariats-strategiques-banner {
+        padding: 20vh 0;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: cover !important;
+    }
+
+    #partenariat #danone, #partenariat #Bongrainsa {
+        width: 44%;
+        padding: 2rem .9rem;
+        min-height: 482px;
+    }
+
+    #partenariat #danone {
+        margin-right: 5rem;
+    }
+
+    #rapports-financiers-banner {
+        padding: 15vh 0;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: cover !important;
+    }
+
+    #politique-rh-banner {
+        padding: 8vh 0;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: cover !important;
+    }
+
+    #politique-rh-banner .title::after {
+        left: 100%;
+    }
+
+    #politique-rh-banner .title {
+        font-size: 1.67rem;
+    }
+
+    #politique-rh-banner .subtitle {
+        font-size: 1.25rem;
+    }
+
+    .content-first-section-politique-rh .caption {
+        width: 47%;
+    }
+
+    .content-second-section-politique-rh .caption {
+        width: 47%;
+    }
+
+    #politique-rh .description {
+        font-size: 0.75rem;
+    }
+
+    #politique-rh .title {
+        font-size: 1.53rem;
+    }
+
+    #delice-a-votre-ecoute .delice-contact {
+        padding: 83px 17px;
+    }
+
+    #contactez-nous-banner {
+        padding: 9vh 0;
+    }
+
+    #delice-a-votre-ecoute-banner {
+        padding: 1vh 0;
+    }
+
+    #delice_videos {
+        padding: 0;
+    }
+
+    #delice-produit-jus-details .col-produit-ingredient, #delice-produit-jus-details .col-produit-details {
+        min-height: 590px;
+    }
+
+    #delice-produit-jus-details .col-produit-ingredient {
+        padding: 30px 0;
+    }
+
+    .first-footer-widget,
+    .second-footer-widget,
+    .third-footer-widget,
+    .forth-footer-widget {
+        -ms-flex: 0 0 50% !important;
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+
+    .item-posts {
+        -ms-flex: 0 0 50% !important;
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+
+    #delice-produit-jus-details .items-prlx {
+        display: none !important;
+    }
+
+    #delice-produit-laitiers-details .col-produit-ingredient {
+        background: #0099e8;
+        padding: 50px 0;
+    }
+
+    #delice-produit-fromage-details .col-produit-ingredient {
+        background: #8db22a;
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 100% !important;
+    }
+
+    header .dektop-primary-menu {
+        display:none;
+    }
+
+    header .dektop-primary-menu {
+        display:none;
+    }
+
+    header .mobile-primary-menu {
+        display: block;
+    }
+
+    header .top-header .top-menu {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    header .top-main {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    header .logo-deliceholding {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 45%;
+    }
+
+    header .top-header .top-search {
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+
+    header .top-num-vert {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .deliceholding-header .delice-holding-main-menu ul#menu-top-menu li a {
+        font-size: .8rem;
+    }
+
+    header .icon-mobile-menu {
+        cursor: pointer;
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+        right: 0;
+        text-align: right;
+    }
+
+    header .icon-mobile-menu img {
+        margin: 0 auto;
+    }
+
+    header #primary-menu {
+        padding-left: 20px;
+    }
+
+    header .navigation-top .menu-bottom-menu-container ul, header .navigation-top ..menu-bottom-menu-en-container  ul {
+        list-style-type: none;
+    }
+
+    header .navigation-top .menu-bottom-menu-container ul li ul, header .navigation-top .menu-bottom-menu-en-container ul li ul{
+        padding-left: 40px;
+    }
+
+    header .navigation-top .menu-bottom-menu-container ul li a, header .navigation-top  .menu-bottom-menu-en-container ul li a{
+        font-family: "Dosis SemiBold";
+        font-size: 1rem;
+        color: #60bded;
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+    }
+
+    header .navigation-top .menu-bottom-menu-container ul a:hover {
+        color: #006ec8;
+    }
+
+    #delice_videos .description {
+        max-width: 300px;
+    }
+
+    .deliceholding-header {
+        background: #006ec8;
+        padding: 5px 0 15px 0;
+    }
+    
+    #delice_numbers #numbers .value {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    #delice_numbers #numbers .title {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    #delice_numbers #numbers #dernier.top .value::after {
+        left: 0;
+    }
+
+    #delice_videos .heading .title {
+        text-align: center;
+    }
+
+    #delice_videos .heading .subtitle {
+        text-align: center;
+    }
+
+    #delice_videos .heading::after {
+        left: 35%;
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        bottom: -23px;
+    }
+
+    #delice_numbers {
+        padding: 0vh 0 8vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left center !important;
+        background-size: cover !important;
+    }
+
+    #deliceandyou {
+        padding: 2vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: cover !important;
+    }
+
+    #delice_videos .description {
+        margin: 0 auto 20px auto;
+    }
+
+    #delice_videos .wpb_raw_html {
+        text-align: center;
+    }
+
+    #footer .created-by {
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    #delice-et-vous-banner {
+        padding: 15vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: cover !important;
+    }
+
+    #notre-mission-banner {
+        padding: 14vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: cover !important;
+    }
+
+    #engagement-recherche-et-innovation-banner {
+        padding: 9vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: cover !important;
+    }
+
+    #engagement-recherche-et-innovation-banner .title::after {
+        left: 73%;
+    }
+
+    #origine-de-notre-lait {
+        padding: 15vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: cover !important;
+    }
+
+    #amont-lait-banner {
+        padding: 15vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: cover !important;
+    }
+
+    #a-chacun-son-lait-banner {
+        padding: 15vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: cover !important;
+    }
+
+    #conseil-administration-banner {
+        padding: 15vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: cover !important;
+    }
+
+    #societes-du-groupe-banner {
+        padding: 15vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: cover !important;
+    }
+
+    #chiffres-cles-banner {
+        padding: 15vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: cover !important;
+    }
+
+    #partenariats-strategiques-banner {
+        padding: 15vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: cover !important;
+    }
+
+    #rapports-financiers-banner {
+        padding: 15vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: cover !important;
+    }
+
+    #notre-mission-banner .title {
+        font-size: 2rem;
+    }
+
+    .col-strategie {
+        padding-top: 60px;
+        width: 22% !important;
+        margin-top: 65px;
+        margin-right: 37px;
+    }
+
+    #engagement-recherche-et-innovation-banner .title {
+        font-size: 2rem;
+    }
+
+    #origine-de-notre-lait .title {
+        font-size: 2rem;
+    }
+
+    #amont-lait-banner .title {
+        font-size: 2rem;
+    }
+
+    #a-chacun-son-lait-banner .title {
+        font-size: 2rem;
+    }
+
+    #a-chacun-son-lait-banner .subtitle {
+        font-size: 1.5rem;
+    }
+
+    #conseil-administration-banner .title {
+        font-size: 2rem;
+    }
+
+    #societes-du-groupe-banner .title {
+        font-size: 2rem;
+    }
+
+    #repas-diversifier {
+        padding: 0vh 0;
+    }
+
+    #importance-sport {
+        padding: 0vh 0;
+    }
+
+    #consommation-lait {
+        padding: 1vh 0;
+    }
+
+    #delice-et-vous-banner .title {
+        font-size: 2rem;
+    }
+
+    #partenariats-strategiques-banner .title {
+        font-size: 2rem;
+    }
+
+    #rapports-financiers-banner .title {
+        font-size: 2rem;
+    }
+
+    #chiffres-cles-banner .title {
+        font-size: 2rem;
+    }
+
+    #delice-et-vous-banner .subtitle {
+        font-size: 2rem;
+    }
+
+    .col-strategie {
+        padding-top: 60px;
+        width: 100% !important;
+        margin-top: 39px;
+        margin-right: 0;
+    }
+
+    .nav-link {
+        margin-right: 0;
+        padding: .525rem 1.85rem !important;
+        font-size: 0.875rem;
+        margin-bottom: 15px;
+    }
+
+    #notre-engagement-sante {
+        padding: 8vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: cover !important;
+    }
+
+    #notre-mission-banner .title::after {
+        left: 64%;
+    }
+
+    #delice-valeurs .title {
+        font-size: 3.55rem;
+        line-height: 4rem;
+    }
+
+    .delice-valeurs-tabs {
+        position: relative;
+        margin-top: 37px;
+    }
+
+    .img-prlx-2 {
+        display: none;
+    }
+
+    .delice-valeurs-tabs #pills-tab.nav {
+        align-items: center;
+        justify-content: left;
+        flex-wrap: nowrap;
+    }
+
+    .custom-logo-link img {
+        width: 50%;
+    }
+
+    #first-section {
+        padding: 11vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: cover !important;
+    }
+
+    #second-section {
+        padding: 11vh 0;
+        background-repeat: no-repeat !important;
+        background-position: right !important;
+        background-size: cover !important;
+    }
+
+    #third-section {
+        padding: 8vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: cover !important;
+    }
+
+    .item-posts {
+        -ms-flex: 0 0 100% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    #a-chacun-son-lait-banner {
+        padding: 18vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: cover !important;
+    }
+
+    #a-chacun-son-lait-banner .subtitle::after {
+        left: 32%;
+    }
+
+    #a-chacun-son-lait-demi-ecreme,
+    #a-chacun-son-lait-matiere-grasse,
+    #a-chacun-son-lait-lben-raieb {
+        background-position: right !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+
+    #a-chacun-son-lait-eniter {
+        background-position: left !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+
+    #a-chacun-son-lait-demi-ecreme .lait-demi-ecreme {
+        max-width: 346px;
+        margin: 0 auto;
+        padding: 20vh 0;
+    }
+
+    #a-chacun-son-lait-demi-ecreme .lait-demi-ecreme h2 {
+        font-size: 2rem;
+    }
+
+    #a-chacun-son-lait-eniter .lait-eniter {
+        max-width: 346px;
+        margin: 0 auto;
+        padding: 20vh 0;
+    }
+
+    #a-chacun-son-lait-eniter .lait-eniter h2 {
+        font-size: 2rem;
+    }
+
+    #a-chacun-son-lait-matiere-grasse .matiere-grasse {
+        max-width: 346px;
+        margin: 0 auto;
+        padding: 20vh 0;
+    }
+
+    #a-chacun-son-lait-matiere-grasse .matiere-grasse h2 {
+        font-size: 2rem;
+    }
+
+    #a-chacun-son-lait-delisso .delisso {
+        padding-top: 3vh;
+    }
+
+    #a-chacun-son-lait-delisso .delisso h2 {
+        font-size: 2rem;
+    }
+
+    #a-chacun-son-lait-delisso .delisso h3 {
+        font-size: 1rem;
+        margin-bottom: 2vh;
+    }
+
+    #a-chacun-son-lait-lben-raieb .lben-raieb {
+        max-width: 346px;
+        margin: 0 auto;
+        padding: 20vh 0;
+    }
+
+    #a-chacun-son-lait-lben-raieb .lben-raieb h2 {
+        font-size: 2rem;
+    }
+
+    #delice-et-vous-banner {
+        padding: 16vh 0;
+    }
+
+    #delice-et-vous-banner .vc_column-inner {
+        padding-top: 0 !important;
+    }
+
+    #delice-et-vous-banner .subtitle::after {
+        left: 30%;
+    }
+
+    #delice-composants .content-delice-milk {
+        position: relative;
+        text-align: center;
+        width: 690px;
+        margin: 0 auto;
+    }
+
+    #delice-lait-fromage .description {
+        margin-top: 17px;
+    }
+
+    #repas-diversifier {
+        padding: 10vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: cover !important;
+    }
+
+    #importance-sport {
+        padding: 8vh 0;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: cover !important;
+    }
+
+    #importance-sport {
+        padding: 3vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: cover !important;
+    }
+
+    #consommation-lait {
+        background-image: none !important;
+        padding: 0 0;
+        background-repeat: no-repeat !important;
+        background-position: right !important;
+        background-size: contain !important;
+    }
+
+    #conseil-administration-banner {
+        padding: 14vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: cover !important;
+    }
+
+    #societes-du-groupe-banner {
+        padding: 15vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left bottom !important;
+        background-size: cover !important;
+    }
+
+    #chiffres-cles-banner {
+        padding: 15vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: cover !important;
+    }
+
+    #chiffres-cles-banner .title::after {
+        left: 42%;
+        top: 50%;
+    }
+
+    #partenariats-strategiques-banner {
+        padding: 14vh 0;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: cover !important;
+    }
+
+    #partenariat #danone, #partenariat #Bongrainsa {
+        width: 100%;
+        padding: 2rem .9rem;
+        min-height: 482px;
+    }
+
+    #partenariat #danone {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    #rapports-financiers-banner {
+        padding: 15vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: cover !important;
+    }
+
+    #contactez-nous-banner {
+        padding: 15.3vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: cover !important;
+    }
+
+    #delice-a-votre-ecoute-banner {
+        padding: 8.95vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: cover !important;
+    }
+
+    #partenariat .title {
+        font-size: 2.18rem;
+        font-family: "Dosis Bold";
+        text-transform: uppercase;
+        text-align: center !important;
+    }
+
+    #delice-composants .content-delice-milk {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .caption-delice-milk img {
+        display: none;
+    }
+
+    #delice-composants .content-delice-milk .block-delice-energie {
+        position: relative;
+        text-align: left;
+    }
+
+    #delice-composants .content-delice-milk .block-mineraux {
+        bottom: 0;
+        left: 50%;
+        background: #f64770;
+        padding: .8rem;
+        border-radius: 5px;
+        width: 80%;
+        height: 142px;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+        margin-bottom: 15px;
+    }
+
+    #delice-composants .content-delice-milk .block-mineraux .content-delice-energie::after {
+        content: "";
+        width: 17px;
+        height: 17px;
+        border-radius: 50%;
+        background: #f64770;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: -42px;
+    }
+    
+    #delice-composants .content-delice-milk .block-vitamines-hydrosolubes {
+        bottom: 0;
+        left: 50%;
+        background: #97b735;
+        padding: .8rem;
+        border-radius: 5px;
+        width: 308px;
+        width: 80%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+        margin-bottom: 15px;
+    }
+
+    #delice-composants .content-delice-milk .block-vitamines-hydrosolubes .content-delice-energie::after {
+        content: "";
+        width: 17px;
+        height: 17px;
+        border-radius: 50%;
+        background: #97b735;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: -42px;
+    }
+
+    #delice-composants .content-delice-milk .block-eau {
+        bottom: 0;
+        right: 0;
+        left: 50%;
+        background: #04b6dc;
+        padding: .8rem;
+        border-radius: 5px;
+        width: 80%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+        margin-bottom: 15px;
+    }
+
+    #delice-composants .content-delice-milk .block-eau .content-delice-energie::after {
+        content: "";
+        width: 17px;
+        height: 17px;
+        border-radius: 50%;
+        background: #04b6dc;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: -42px;
+    }
+
+    #delice-composants .content-delice-milk .block-proteines {
+        bottom: 0;
+        right: 0;
+        left: 50%;
+        background: #ff9715;
+        padding: .8rem;
+        border-radius: 5px;
+        width: 80%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+        margin-bottom: 15px;
+    }
+
+    #delice-composants .content-delice-milk .block-proteines .content-delice-energie::after {
+        content: "";
+        width: 17px;
+        height: 17px;
+        border-radius: 50%;
+        background: #ff9715;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: -42px;
+    }
+
+    #delice-composants .content-delice-milk .block-vitamines-liposolubles {
+        bottom: 0;
+        right: 0;
+        left: 50%;
+        background: #c774ea;
+        padding: .8rem;
+        border-radius: 5px;
+        width: 80%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    #delice-composants .content-delice-milk .block-vitamines-liposolubles .content-delice-energie::after {
+        content: "";
+        width: 17px;
+        height: 17px;
+        border-radius: 50%;
+        background: #c774ea;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: -42px;
+    }
+
+    #delice-composants .description {
+        position: relative;
+        bottom: 0;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+        font-family: "Roboto Medium";
+        color: #1e95af;
+        text-align: center;
+    }
+
+    .content-staf-delice .display-right {
+        display: flex;
+        display: -ms-flex;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-align-items: center;
+        align-items: center;
+    }
+
+    .content-staf-delice .display-left {
+        display: flex;
+        display: -ms-flex;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-align-items: center;
+        align-items: center;
+    }
+
+    .content-staf-delice .align-top {
+        position: relative;
+        bottom: 0;
+    }
+
+    .content-staf-delice .align-bottom {
+        position: relative;
+        top: 0;
+    }
+
+    .block-chiffre .title-chiffre {
+        font-size: 0.93rem;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Dosis Bold";
+        line-height: 1rem;
+        min-height: 9px;
+    }
+
+    .block-chiffre .first-chiffre,
+    .block-chiffre .second-chiffre,
+    .block-chiffre .third-chiffre {
+        margin-bottom: 15px;
+    }
+
+    #chiffres-cles-banner {
+        padding: 22vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: cover !important;
+    }
+    
+    #partenariats-strategiques-banner {
+        padding: 25vh 0;
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: cover !important;
+    }
+
+    #partenariats-strategiques-banner .title::after {
+        left: 79%;
+    }
+
+    .col-caption {
+        width: 100% !important;
+        margin-right: 40px;
+        -webkit-box-shadow: 0px 31px 59px 0px rgba(148, 148, 148, 0.3);
+        -moz-box-shadow: 0px 31px 59px 0px rgba(148, 148, 148, 0.3);
+        box-shadow: 0px 31px 59px 0px rgba(148, 148, 148, 0.3);
+        height: 180px;
+    }
+
+    .content-first-section-politique-rh .caption {
+        width: 23%;
+    }
+
+    .content-second-section-politique-rh .caption {
+        width: 23%;
+    }
+
+    #delice_videos .description {
+        max-width: 500px;
+        font-size: 0.75rem;
+        margin-bottom: 20px;
+        padding-right: 0;
+    }
+
+    #delice-a-votre-ecoute {
+        margin-top: 0;
+    }
+
+    #politique-rh-banner .title::after {
+        left: 57%;
+    }
+
+    #caption-politique-rh .col-caption {
+        margin-bottom: 15px;
+    }
+
+    #delice_numbers #numbers #dernier.bottom .value::after {
+        left: 35%;
+    }
+
+    #home_products #description_produit_jus .medium-text {
+        font-size: 1.2rem !important;
+    }
+
+    #home_products #description_produit_jus .percent {
+        font-size: 1.4rem !important;
+    }
+
+    #home_products #description_produit_jus .bold-text {
+        font-size: 1rem !important;
+    }
+
+    #delice-produit-laitiers-details .col-produit-ingredient {
+        background: #0099e8;
+        padding: 50px 0;
+    }
+
+    #societes-du-groupe figure img {
+        width: 45%;
+    }
+
+    #societes-du-groupe .tp-caption div {
+        white-space: normal !important;
+        width: 300px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    #delice_numbers #numbers #dernier.bottom .value::after {
+        left: 25%;
+    }
+
+    #home_slider .title_first-slide div {
+        font-size: 1.2rem !important;
+    }
+
+    #delice_videos .description {
+        padding-right: 0;
+    }
+
+    #home_products .product_laitier_btn,
+    #home_products .fromage_latier,
+    #home_products .jus_btn {
+        font-size: 0.75rem !important;
+        padding: .75rem 1.25rem !important;
+        text-align: center !important;
+    }
+
+    #home_products .product_btn {
+        font-size: 0.875rem !important;
+        padding: .375rem 1.25rem !important;
+        line-height: 1.25rem !important;
+    }
+
+    #delice_videos .description {
+        margin-bottom: 20px;
+        padding: 0 28px;
+        max-width: 100%;
+    }
+
+    .first-footer-widget, .second-footer-widget, .third-footer-widget, .forth-footer-widget {
+        -ms-flex: 0 0 100% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    #delice-et-vous-banner .subtitle::after {
+        left: 42%;
+    }
+
+    #commissaires-comptes .description {
+        width: 100%;
+    }
+
+    #chiffres-cles-banner .title::after {
+        left: 63%;
+        top: 50%;
+    }
+
+    #rapports-financiers-banner .title::after {
+        left: 92%;
+    }
+
+    #politique-rh-banner .title::after {
+        left: 83%;
+    }
+
+    .content-first-section-politique-rh .caption {
+        width: 43%;
+    }
+
+    .content-second-section-politique-rh .caption {
+        width: 43%;
+    }
+
+    #home_slider .gray_title_first-slide {
+        line-height: 1.5rem !important;
+        white-space: normal !important;
+        width: 250px;
+    }
+
+    #home_slider .content_title_first-slide {
+        line-height: 1.2rem !important;
+        white-space: normal !important;
+        width: 300px;
+    }
+
+    #role-commistes-gestion .description ul li {
+        font-size: 0.875rem !important;
+        font-family: "Roboto Light" !important;
+        color: #ffffff !important;
+        line-height: 1.5rem !important;
+        position: relative;
+        white-space: normal !important;
+        width: 300px;
+    }
+
+    #role-commistes-gestion .title {
+        font-family: "Dosis SemiBold" !important;
+        color: #1aa9f0 !important;
+        font-size: 1.5rem !important;
+        text-transform: uppercase;
+    }
+
+    #role-commistes-gestion .subtitle {
+        font-family: "Dosis Bold" !important;
+        color: #f3fafe !important;
+        font-size: 1.7rem !important;
+        text-transform: uppercase;
+    }
+
+    #role-commistes-gestion .extratitle {
+        font-size: 1.16rem !important;
+        font-family: "Dosis Medium" !important;
+        color: #99c423 !important;
+        text-transform: uppercase;
+    }
+
+    #delice-produit-laitiers-details .col-produit-ingredient {
+        background: #0099e8;
+        padding: 50px 0;
+    }
+}

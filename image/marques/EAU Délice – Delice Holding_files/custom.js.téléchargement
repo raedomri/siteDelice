@@ -1,0 +1,141 @@
+"use strict";
+jQuery(function () {
+    jQuery(".youtube").each(function () {
+        // Based on the YouTube ID, we can easily find the thumbnail image
+        //jQuery(this).css('background-image', 'url(http://i.ytimg.com/vi/' + this.id + '/sddefault.jpg)');
+
+        // Overlay the Play icon to make it look like a video player
+        jQuery(this).append(jQuery('<div/>', {'class': 'play'}));
+
+        jQuery(this).on('click', function () {
+            // Create an iFrame with autoplay set to true
+            var iframe_url = "https://www.youtube.com/embed/" + this.id + "?rel=0&autoplay=1&autohide=1&showinfo=0";
+            if (jQuery(this).data('params')) iframe_url += '&' + jQuery(this).data('params');
+
+            // The height and width of the iFrame should be the same as parent
+            var iframe = jQuery('<iframe/>', {
+                'allow': 'autoplay; encrypted-media',
+                'frameborder': '0',
+                'src': iframe_url,
+                'width': '100%',
+                'height': jQuery(this).height(),
+                'allowfullscreen': 'allowfullscreen'
+            })
+
+            // Replace the YouTube thumbnail with YouTube HTML5 Player
+            jQuery(this).replaceWith(iframe);
+        });
+    });
+});
+
+jQuery(document).ready(function() {
+    jQuery(document).ready(function(){
+        jQuery.ajax({
+            type: "post",
+            dataType: "json",
+            url: "/ws",
+            success: function(data){
+                jQuery('#dernier').removeClass('top').removeClass('bottom');
+                var variation = data[0].variation
+                if(variation >= 0) {
+                    jQuery('#dernier').addClass('top');
+                }else {
+                    jQuery('#dernier').addClass('bottom');
+                }
+                jQuery('#dernier .value').html(data[0].dernier)
+                jQuery('#var .value').html(variation+"%")
+            }
+        });
+    });
+
+    //first time
+    setTimeout(function() {
+        jQuery('.delice-valeurs-tabs .nav-link').removeClass('active').removeClass('show')
+        jQuery('.delice-valeurs-tabs .tab-pane').removeClass('active').removeClass('show')
+        jQuery('.delice-valeurs-tabs .tab-2').addClass('active').addClass('show')
+        jQuery('.delice-valeurs-tabs .content-tab-2').addClass('active').addClass('show')
+    },5000)
+
+    setTimeout(function() {
+        jQuery('.delice-valeurs-tabs .nav-link').removeClass('active').removeClass('show')
+        jQuery('.delice-valeurs-tabs .tab-pane').removeClass('active').removeClass('show')
+        jQuery('.delice-valeurs-tabs .tab-3').addClass('active').addClass('show')
+        jQuery('.delice-valeurs-tabs .content-tab-3').addClass('active').addClass('show')
+    },10000)
+
+    setTimeout(function() {
+        jQuery('.delice-valeurs-tabs .nav-link').removeClass('active').removeClass('show')
+        jQuery('.delice-valeurs-tabs .tab-pane').removeClass('active').removeClass('show')
+        jQuery('.delice-valeurs-tabs .tab-4').addClass('active').addClass('show')
+        jQuery('.delice-valeurs-tabs .content-tab-4').addClass('active').addClass('show')
+    },15000)
+
+    setTimeout(function() {
+        jQuery('.delice-valeurs-tabs .nav-link').removeClass('active').removeClass('show')
+        jQuery('.delice-valeurs-tabs .tab-pane').removeClass('active').removeClass('show')
+        jQuery('.delice-valeurs-tabs .tab-1').addClass('active').addClass('show')
+        jQuery('.delice-valeurs-tabs .content-tab-1').addClass('active').addClass('show')
+    },20000)
+
+    //every 20 seconds
+    setInterval(function(){
+        setTimeout(function() {
+            jQuery('.delice-valeurs-tabs .nav-link').removeClass('active').removeClass('show')
+            jQuery('.delice-valeurs-tabs .tab-pane').removeClass('active').removeClass('show')
+            jQuery('.delice-valeurs-tabs .tab-2').addClass('active').addClass('show')
+            jQuery('.delice-valeurs-tabs .content-tab-2').addClass('active').addClass('show')
+        },5000)
+    
+        setTimeout(function() {
+            jQuery('.delice-valeurs-tabs .nav-link').removeClass('active').removeClass('show')
+            jQuery('.delice-valeurs-tabs .tab-pane').removeClass('active').removeClass('show')
+            jQuery('.delice-valeurs-tabs .tab-3').addClass('active').addClass('show')
+            jQuery('.delice-valeurs-tabs .content-tab-3').addClass('active').addClass('show')
+        },10000)
+    
+        setTimeout(function() {
+            jQuery('.delice-valeurs-tabs .nav-link').removeClass('active').removeClass('show')
+            jQuery('.delice-valeurs-tabs .tab-pane').removeClass('active').removeClass('show')
+            jQuery('.delice-valeurs-tabs .tab-4').addClass('active').addClass('show')
+            jQuery('.delice-valeurs-tabs .content-tab-4').addClass('active').addClass('show')
+        },15000)
+    
+        setTimeout(function() {
+            jQuery('.delice-valeurs-tabs .nav-link').removeClass('active').removeClass('show')
+            jQuery('.delice-valeurs-tabs .tab-pane').removeClass('active').removeClass('show')
+            jQuery('.delice-valeurs-tabs .tab-1').addClass('active').addClass('show')
+            jQuery('.delice-valeurs-tabs .content-tab-1').addClass('active').addClass('show')
+        },20000)
+    },20000)
+
+    jQuery('.js-scene').each(function(e) {
+        var scene =  jQuery(this)[0]
+        var parallax = new Parallax(scene);
+    });
+    
+})
+
+jQuery('#pills-tab a').on('click', function (e) {
+    e.preventDefault()
+    jQuery(this).tab('show')
+})
+
+jQuery('#delice_videos figure').on('click', function () {
+    jQuery('#exampleModal').modal()
+})
+
+jQuery('#delice_videos button.btn-go-to-video').on('click', function () {
+    jQuery('#exampleModal').modal()
+})
+
+jQuery('#second_btn_first_slide').on('click', function () {
+    jQuery('#exampleModal').modal()
+})
+
+jQuery('.nav-rapport-finnacier li.nav-btn-pdf button').on('click', function() {
+    var id = jQuery(this).parent().attr('id')
+    jQuery('.nav-rapport-finnacier li.nav-btn-pdf button').removeClass('active');
+    jQuery(this).addClass('active');
+    jQuery('.rapports-financiers-content').removeClass('active')
+    jQuery('#rapports-financiers-'+id).addClass('active')
+});

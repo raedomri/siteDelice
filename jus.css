@@ -1,0 +1,126 @@
+.landingc{
+    background-image: url("./image/jus/photo-1550605132-72563b352e38.jpg");
+    background-size: cover;
+    height: 730px;
+    
+    
+}:root{
+    --main-color: #191970;
+    --main-color-alt:#fff;
+}
+
+.landingc .image{
+    margin-left: 390px;
+    margin-right: 380px;
+    padding: 10px;
+    
+    
+}
+.landingc .image  h2{
+    color:var(--main-color);
+    padding: 15px;
+    text-align: center;
+    margin-top: 350px;
+}
+.jus{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    position: relative;
+    background-color: #ececec;
+
+}
+
+
+.jus .container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 40px;
+
+}
+.jus .boxe{
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 12px 10px 0px rgb(0 0 0 /11%), 0px 2px 4px 0px rgb(0 0 0 /10%) ;
+    
+    height: 400px;
+    /*overflow: hidden;*/
+
+}
+.jus .boxe p{
+    background-color: burlywood;
+    padding: 10px;
+    z-index: -1;
+    color:#ffa000;
+}
+.jus .boxe .image {
+    position: relative;
+    overflow: hidden;
+}
+.jus .boxe .image::before{
+    content: "";
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+/*.products .box .image:hover::before{
+    animation: flashing 0.7s;
+}*/
+.jus .boxe:hover{
+    background-color: #32CD32 ;
+    color: white;
+     
+}
+.jus .boxe img{
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    align-content: center;
+    
+}
+.jus .boxe h2{
+    font-size: 18px;
+    text-align: center;
+    color:#ffa000;
+  
+}
+.jus .boxe .button{
+    background-color: var(--main-color-alt);
+    text-align: center;
+    padding: 10px;
+    margin: 60px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    border-radius: 25px ;
+    border-color: #ffa000;
+    
+}
+.jus .boxe h3{
+    font-size: 12px;
+    text-align: center;
+    color:#ffa000;
+}
+.jus .titre{
+    font-size: 30px;
+    color: var(--main-color);
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    display: block;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 25px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    box-shadow: 0 12px 10px 0px rgb(0 0 0 /11%), 0px 2px 4px 0px rgb(0 0 0 /10%) ;
+    opacity: 1;
+    
+
+}

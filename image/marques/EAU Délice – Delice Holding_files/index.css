@@ -1,0 +1,211 @@
+@font-face {
+  font-family: 'Amertha_PERSONAL_USE_ONLY';
+  src: url(../fonts/Amertha_PERSONAL_USE_ONLY.ttf);
+}
+@font-face {
+  font-family: "Helvetica Neue LT W05 35 Thin";
+  src: url('../fonts/7d63ccf8-e0ae-4dee-ad4d-bbc798aa5803.woff2') format("woff2"), url('../fonts/b2c1327f-ab3d-4230-93d7-eee8596e1498.woff') format("woff");
+  font-display: swap
+}
+@font-face {
+  font-family: "Helvetica Neue LT W05 45 Light";
+  src: url('../fonts/f9c5199e-a996-4c08-9042-1eb845bb7495.woff2') format("woff2"), url('../fonts/2a34f1f8-d701-4949-b12d-133c1c2636eb.woff') format("woff");
+  font-display: swap
+}
+@font-face {
+  font-family: "Helvetica Neue LT W05 46 Lt It";
+  src: url('../fonts/5e4f385b-17ff-4d27-a63a-9ee28546c9a8.woff2') format("woff2"), url('../fonts/116cde47-4a07-44a5-9fac-cbdcc1f14f79.woff') format("woff");
+  font-display: swap
+}
+@font-face {
+  font-family: "Helvetica Neue LT W05 65 Medium";
+  src: url('../fonts/240c57a0-fdce-440d-9ce3-85e0cb56f470.woff2') format("woff2"), url('../fonts/7802e576-2ffa-4f22-a409-534355fbea79.woff') format("woff");
+  font-display: swap
+}
+@font-face {
+  font-family: "Helvetica Neue LT W05_75 Bold";
+  src: url('../fonts/800da3b0-675f-465f-892d-d76cecbdd5b1.woff2') format("woff2"), url('../fonts/7b415a05-784a-4a4c-8c94-67e9288312f5.woff') format("woff");
+  font-display: swap
+}
+@font-face {
+  font-family: "Helvetica Neue LT W05 55 Roman";
+  src: url('../fonts/08b57253-2e0d-4c12-9c57-107f6c67bc49.woff2') format("woff2"), url('../fonts/08edde9d-c27b-4731-a27f-d6cd9b01cd06.woff') format("woff");
+  font-display: swap
+}
+:root {
+  --scale: 1;
+  --scale-mm: 1;
+}
+.section-slider {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+}
+.video-slider {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+}
+.slider-p {
+  padding: 0 15px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 3;
+  background-image: url(../content/logo\ eau.png), url(../content/safi\ badnek\ logo.png), url(../content/نيترات\ logo.png);
+  background-position: center 30%, center 54.5%, center 83%;
+  background-repeat: no-repeat;
+  background-size: 31%, 25.5%, 17%;
+  font-family: 'Roboto', sans-serif;
+}
+.section-origine {
+  padding-top: calc(231px * var(--scale));
+  font-size: calc(32px * var(--scale));
+  color: #6c7e87;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Helvetica Neue LT W05 45 Light";
+}
+.section-origine p {
+  text-align: center;
+  font-family: "Helvetica Neue LT W05 45 Light";
+  /* font-family: 'Roboto', sans-serif; */
+}
+.section-origine h2 {
+  font-family: Amertha_PERSONAL_USE_ONLY;
+  font-size: calc(115px * var(--scale));
+  margin: 0;
+  text-align: center;
+  color: #00afe9;
+  line-height: 1;
+  font-weight: 100;
+  margin-bottom: 100px;
+}
+.section-origine img {
+  width: 100%;
+}
+.origine-c {
+  z-index: 3;
+  /* background-image: url('../content/bouteille.png'), url('../content/goutte.png'), url('../content/nitrat.png'), url('../content/info.png');
+    background-position: calc(510px * var(--scale-mm)) bottom, calc(171px * var(--scale-mm)) bottom, left calc(429px * var(--scale-mm)), right calc(335px * var(--scale-mm));
+    background-size: calc(220px * var(--scale-mm)), calc(337px * var(--scale-mm)), calc(218px * var(--scale-mm)), calc(394px * var(--scale-mm)); */
+  background-repeat: no-repeat;
+  background-image: url(../content/pg.png);
+  background-size: 100%;
+  max-width: calc(971px * var(--scale-mm));
+  margin: auto;
+  height: calc(1188px * var(--scale-mm));
+  font-family: 'Roboto', sans-serif;
+}
+.section-info {
+  background-color: #17a8db;
+  position: relative;
+  padding-bottom: calc(167px * var(--scale-mm));
+  padding-top: calc(421px * var(--scale-mm));
+}
+.origine-content {
+  margin: auto;
+  max-width: calc(1472px * var(--scale));
+  padding: 0 15px;
+}
+.self-image .vc_column-inner {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.self-image {
+  height: calc(872px * var(--scale-mm));
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  z-index: 3;
+  background-position: center bottom;
+}
+.origine-o {
+  font-size: calc(24px * var(--scale));
+  font-weight: 500;
+  color: #ffffff;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 -15px;
+  flex-wrap: wrap;
+}
+.origine-o>div {
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding: 0 15px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+.origine-o h2 {
+  font-size: calc(30px * var(--scale));
+  height: calc(74px * var(--scale));
+}
+.self-cont .vc_column_container {
+  float: none !important;
+}
+.info-ns {
+  height: 50%;
+  display: flex;
+  margin-bottom: 5px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  align-items: center;
+  padding: 0 calc(17px * var(--scale));
+  font-weight: 500;
+  color: #000000;
+  text-decoration: none;
+  font-size: calc(36px * var(--scale));
+}
+.info-ns>div {
+  text-align: center;
+}
+.info-ns svg image, .info-ns svg {
+  vertical-align: middle;
+  width: 68px;
+}
+.info-ns span {
+  margin-left: calc(39px * var(--scale));
+}
+@media (max-width:1440px) {
+   :root {
+    --scale: 0.6;
+    --scale-mm: 0.6;
+  }
+  .info-ns svg image, .info-ns svg {
+    vertical-align: middle;
+    width: 48px;
+  }
+}
+@media (max-width:992px) {
+  .origine-o>div {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+   :root {
+    --scale-mm: 0.3;
+  }
+  .info-ns {
+    max-width: 250px;
+  }
+  .info-ns svg image, .info-ns svg {
+    vertical-align: middle;
+    width: 48px;
+  }
+}
+@media (max-width:767px) {
+  .origine-o>div {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .origine-o h2 {
+    height: auto;
+  }
+  .info-ns {
+    max-width: 250px;
+    margin: 5px auto;
+    justify-content: center;
+  }
+}
+.vc_col-has-fill>.vc_column-inner, .vc_row-has-fill+.vc_row-full-width+.vc_row>.vc_column_container>.vc_column-inner, .vc_row-has-fill+.vc_row>.vc_column_container>.vc_column-inner, .vc_row-has-fill>.vc_column_container>.vc_column-inner {
+  padding-top: 0 !important;
+}
